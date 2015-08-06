@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="2.6" jmeter="2.11 r1554548">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="CBIO selfcare performance test" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="runtime_0" elementType="Argument">
+            <stringProp name="Argument.name">runtime_0</stringProp>
+            <stringProp name="Argument.value">${__P(runtime_0,10.175.190.201)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="runtime_0_port" elementType="Argument">
+            <stringProp name="Argument.name">runtime_0_port</stringProp>
+            <stringProp name="Argument.value">${__P(runtime_0_port,8080)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="selfcare" elementType="Argument">
+            <stringProp name="Argument.name">selfcare</stringProp>
+            <stringProp name="Argument.value">${__P(selfcare,10.175.190.203)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="script_path" elementType="Argument">
+            <stringProp name="Argument.name">script_path</stringProp>
+            <stringProp name="Argument.value">${__P(script_path,/root/cbioSelfcarePerf/report)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="cache_0" elementType="Argument">
+            <stringProp name="Argument.name">cache_0</stringProp>
+            <stringProp name="Argument.value">${__P(cache_0,10.175.172.192)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="monitor_port" elementType="Argument">
+            <stringProp name="Argument.name">monitor_port</stringProp>
+            <stringProp name="Argument.value">${__P(monitor_port,4444)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="runtime_0_cpu_report" elementType="Argument">
+            <stringProp name="Argument.name">runtime_0_cpu_report</stringProp>
+            <stringProp name="Argument.value">${__P(runtime_0_cpu_report,runtime_0_cpu.jtl)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="runtime_0_jvm_report" elementType="Argument">
+            <stringProp name="Argument.name">runtime_0_jvm_report</stringProp>
+            <stringProp name="Argument.value">${__P(runtime_0_jvm_report,runtime_0_jvm.jtl)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="runtime_0_network_report" elementType="Argument">
+            <stringProp name="Argument.name">runtime_0_network_report</stringProp>
+            <stringProp name="Argument.value">${__P(runtime_0_network_report,runtime_0_network.jtl)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="runtime_0_io_report" elementType="Argument">
+            <stringProp name="Argument.name">runtime_0_io_report</stringProp>
+            <stringProp name="Argument.value">${__P(runtime_0_io_report,runtime_0_io.jtl)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="cache_0_cpu_report" elementType="Argument">
+            <stringProp name="Argument.name">cache_0_cpu_report</stringProp>
+            <stringProp name="Argument.value">${__P(cache_0_cpu_report,cache_0_cpu.jtl)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="cache_0_jvm_report" elementType="Argument">
+            <stringProp name="Argument.name">cache_0_jvm_report</stringProp>
+            <stringProp name="Argument.value">${__P(cache_0_jvm_report,cache_0_jvm.jtl)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="cache_0_network_report" elementType="Argument">
+            <stringProp name="Argument.name">cache_0_network_report</stringProp>
+            <stringProp name="Argument.value">${__P(cache_0_network_report,cache_0_network.jtl)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="cache_0_io_report" elementType="Argument">
+            <stringProp name="Argument.name">cache_0_io_report</stringProp>
+            <stringProp name="Argument.value">${__P(cache_0_io_report,cache_0_io.jtl)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="selfcare_cpu_report" elementType="Argument">
+            <stringProp name="Argument.name">selfcare_cpu_report</stringProp>
+            <stringProp name="Argument.value">${__P(selfcare_cpu_report,selfcare_cpu.jtl)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="selfcare_jvm_report" elementType="Argument">
+            <stringProp name="Argument.name">selfcare_jvm_report</stringProp>
+            <stringProp name="Argument.value">${__P(selfcare_jvm_report,selfcare_jvm.jtl)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="selfcare_network_report" elementType="Argument">
+            <stringProp name="Argument.name">selfcare_network_report</stringProp>
+            <stringProp name="Argument.value">${__P(selfcare_network_report,selfcare_network.jtl)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="selfcare_io_report" elementType="Argument">
+            <stringProp name="Argument.name">selfcare_io_report</stringProp>
+            <stringProp name="Argument.value">${__P(selfcare_io_report,selfcare_io.jtl)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="runtime_tps_report" elementType="Argument">
+            <stringProp name="Argument.name">runtime_tps_report</stringProp>
+            <stringProp name="Argument.value">${__P(selfcare_tps_report,runtime_tps.jtl)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="runtime_jmx_port" elementType="Argument">
+            <stringProp name="Argument.name">runtime_jmx_port</stringProp>
+            <stringProp name="Argument.value">${__P(runtime_jmx_port,4447)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="cache_jmx_port" elementType="Argument">
+            <stringProp name="Argument.name">cache_jmx_port</stringProp>
+            <stringProp name="Argument.value">${__P(cache_jmx_port,1234)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="selfcare_jmx_port" elementType="Argument">
+            <stringProp name="Argument.name">selfcare_jmx_port</stringProp>
+            <stringProp name="Argument.value">${__P(selfcare_jmx_port,4452)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="duration" elementType="Argument">
+            <stringProp name="Argument.name">duration</stringProp>
+            <stringProp name="Argument.value">${__P(duration,1800)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="CBIO selfcare user" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">-1</intProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">100</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">5</stringProp>
+        <longProp name="ThreadGroup.start_time">1410244177000</longProp>
+        <longProp name="ThreadGroup.end_time">1410244177000</longProp>
+        <boolProp name="ThreadGroup.scheduler">true</boolProp>
+        <stringProp name="ThreadGroup.duration">${duration}</stringProp>
+        <stringProp name="ThreadGroup.delay">5</stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.TransactionsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - runtime tps" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+            </value>
+          </objProp>
+          <stringProp name="filename">${script_path}/${runtime_tps_report}</stringProp>
+          <longProp name="interval_grouping">1000</longProp>
+          <boolProp name="graph_aggregated">false</boolProp>
+          <stringProp name="include_sample_labels"></stringProp>
+          <stringProp name="exclude_sample_labels"></stringProp>
+        </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
+        <hashTree/>
+        <kg.apc.jmeter.perfmon.PerfMonCollector guiclass="kg.apc.jmeter.vizualizers.PerfMonGui" testclass="kg.apc.jmeter.perfmon.PerfMonCollector" testname="jp@gc - runtime 0 CPU" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+            </value>
+          </objProp>
+          <stringProp name="filename">${script_path}/${runtime_0_cpu_report}</stringProp>
+          <longProp name="interval_grouping">1000</longProp>
+          <boolProp name="graph_aggregated">false</boolProp>
+          <stringProp name="include_sample_labels"></stringProp>
+          <stringProp name="exclude_sample_labels"></stringProp>
+          <collectionProp name="metricConnections">
+            <collectionProp name="648633295">
+              <stringProp name="2135461931">${runtime_0}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="66952">CPU</stringProp>
+              <stringProp name="1265940113">label=CPU usage for runtime 0</stringProp>
+            </collectionProp>
+          </collectionProp>
+        </kg.apc.jmeter.perfmon.PerfMonCollector>
+        <hashTree/>
+        <kg.apc.jmeter.perfmon.PerfMonCollector guiclass="kg.apc.jmeter.vizualizers.PerfMonGui" testclass="kg.apc.jmeter.perfmon.PerfMonCollector" testname="jp@gc - runtime 0 IO" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+            </value>
+          </objProp>
+          <stringProp name="filename">${script_path}/${runtime_0_io_report}</stringProp>
+          <longProp name="interval_grouping">1000</longProp>
+          <boolProp name="graph_aggregated">false</boolProp>
+          <stringProp name="include_sample_labels"></stringProp>
+          <stringProp name="exclude_sample_labels"></stringProp>
+          <collectionProp name="metricConnections">
+            <collectionProp name="-410591170">
+              <stringProp name="2135461931">${runtime_0}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="2112896831">Disks I/O</stringProp>
+              <stringProp name="-1793662678">label=runtime 0 IO read(KB):unit=kb:readbytes</stringProp>
+            </collectionProp>
+            <collectionProp name="-560689033">
+              <stringProp name="2135461931">${runtime_0}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp reference="../../collectionProp/stringProp[3]"/>
+              <stringProp name="1341915744">label=runtime 0 IO write(KB):unit=kb:writebytes</stringProp>
+            </collectionProp>
+          </collectionProp>
+        </kg.apc.jmeter.perfmon.PerfMonCollector>
+        <hashTree/>
+        <kg.apc.jmeter.perfmon.PerfMonCollector guiclass="kg.apc.jmeter.vizualizers.PerfMonGui" testclass="kg.apc.jmeter.perfmon.PerfMonCollector" testname="jp@gc - runtime 0 network" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+            </value>
+          </objProp>
+          <stringProp name="filename">${script_path}/${runtime_0_network_report}</stringProp>
+          <longProp name="interval_grouping">1000</longProp>
+          <boolProp name="graph_aggregated">false</boolProp>
+          <stringProp name="include_sample_labels"></stringProp>
+          <stringProp name="exclude_sample_labels"></stringProp>
+          <collectionProp name="metricConnections">
+            <collectionProp name="924104255">
+              <stringProp name="2135461931">${runtime_0}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="-274342153">Network I/O</stringProp>
+              <stringProp name="152640517">label=network sent for runtime 0 (kb):unit=kb:bytessent</stringProp>
+            </collectionProp>
+            <collectionProp name="1558767923">
+              <stringProp name="2135461931">${runtime_0}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="-274342153">Network I/O</stringProp>
+              <stringProp name="275925712">label=network recerive for runtime 0 (kb):unit=kb:bytesrecv</stringProp>
+            </collectionProp>
+          </collectionProp>
+        </kg.apc.jmeter.perfmon.PerfMonCollector>
+        <hashTree/>
+        <kg.apc.jmeter.perfmon.PerfMonCollector guiclass="kg.apc.jmeter.vizualizers.PerfMonGui" testclass="kg.apc.jmeter.perfmon.PerfMonCollector" testname="jp@gc - runtime 0 jvm" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+            </value>
+          </objProp>
+          <stringProp name="filename">${script_path}/${runtime_0_jvm_report}</stringProp>
+          <longProp name="interval_grouping">1000</longProp>
+          <boolProp name="graph_aggregated">false</boolProp>
+          <stringProp name="include_sample_labels"></stringProp>
+          <stringProp name="exclude_sample_labels"></stringProp>
+          <collectionProp name="metricConnections">
+            <collectionProp name="-659862025">
+              <stringProp name="2135461931">${runtime_0}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="73589">JMX</stringProp>
+              <stringProp name="653217664">url=${runtime_0}\:${runtime_jmx_port}:label=JVM:unit=mb:memory-usage</stringProp>
+            </collectionProp>
+            <collectionProp name="1634958768">
+              <stringProp name="2135461931">${runtime_0}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp reference="../../collectionProp/stringProp[3]"/>
+              <stringProp name="369630351">url=${runtime_0}\:${runtime_jmx_port}:label=GC time:gc-time</stringProp>
+            </collectionProp>
+          </collectionProp>
+        </kg.apc.jmeter.perfmon.PerfMonCollector>
+        <hashTree/>
+        <kg.apc.jmeter.perfmon.PerfMonCollector guiclass="kg.apc.jmeter.vizualizers.PerfMonGui" testclass="kg.apc.jmeter.perfmon.PerfMonCollector" testname="jp@gc - cache 0 jvm" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+            </value>
+          </objProp>
+          <stringProp name="filename">${script_path}/${cache_0_jvm_report}</stringProp>
+          <longProp name="interval_grouping">1000</longProp>
+          <boolProp name="graph_aggregated">false</boolProp>
+          <stringProp name="include_sample_labels"></stringProp>
+          <stringProp name="exclude_sample_labels"></stringProp>
+          <collectionProp name="metricConnections">
+            <collectionProp name="-1763133873">
+              <stringProp name="2103357953">${cache_0}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="73589">JMX</stringProp>
+              <stringProp name="94123628">url=${cache_0}\:${cache_jmx_port}:label=JVM:unit=mb:memory-usage</stringProp>
+            </collectionProp>
+            <collectionProp name="698171415">
+              <stringProp name="2103357953">${cache_0}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="73589">JMX</stringProp>
+              <stringProp name="-1439990749">url=${cache_0}\:${cache_jmx_port}:label=GC time:gc-time</stringProp>
+            </collectionProp>
+          </collectionProp>
+        </kg.apc.jmeter.perfmon.PerfMonCollector>
+        <hashTree/>
+        <kg.apc.jmeter.perfmon.PerfMonCollector guiclass="kg.apc.jmeter.vizualizers.PerfMonGui" testclass="kg.apc.jmeter.perfmon.PerfMonCollector" testname="jp@gc - cache 0 network" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+            </value>
+          </objProp>
+          <stringProp name="filename">${script_path}/${cache_0_network_report}</stringProp>
+          <longProp name="interval_grouping">1000</longProp>
+          <boolProp name="graph_aggregated">false</boolProp>
+          <stringProp name="include_sample_labels"></stringProp>
+          <stringProp name="exclude_sample_labels"></stringProp>
+          <collectionProp name="metricConnections">
+            <collectionProp name="1184545738">
+              <stringProp name="2103357953">${cache_0}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="-274342153">Network I/O</stringProp>
+              <stringProp name="-1240729445">label=network sent for cache 0 (kb):unit=kb:bytessent</stringProp>
+            </collectionProp>
+            <collectionProp name="391849281">
+              <stringProp name="2103357953">${cache_0}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="-274342153">Network I/O</stringProp>
+              <stringProp name="328082086">label=network recerive for cache 0 (kb):unit=kb:bytesrecv</stringProp>
+            </collectionProp>
+          </collectionProp>
+        </kg.apc.jmeter.perfmon.PerfMonCollector>
+        <hashTree/>
+        <kg.apc.jmeter.perfmon.PerfMonCollector guiclass="kg.apc.jmeter.vizualizers.PerfMonGui" testclass="kg.apc.jmeter.perfmon.PerfMonCollector" testname="jp@gc - cache 0 IO" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+            </value>
+          </objProp>
+          <stringProp name="filename">${script_path}/${cache_0_io_report}</stringProp>
+          <longProp name="interval_grouping">1000</longProp>
+          <boolProp name="graph_aggregated">false</boolProp>
+          <stringProp name="include_sample_labels"></stringProp>
+          <stringProp name="exclude_sample_labels"></stringProp>
+          <collectionProp name="metricConnections">
+            <collectionProp name="-1419532421">
+              <stringProp name="2103357953">${cache_0}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="2112896831">Disks I/O</stringProp>
+              <stringProp name="1600369300">label=cache 0 IO read(KB):unit=kb:readbytes</stringProp>
+            </collectionProp>
+            <collectionProp name="-922965503">
+              <stringProp name="2103357953">${cache_0}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="2112896831">Disks I/O</stringProp>
+              <stringProp name="-1168498358">label=cache 0 IO write(KB):unit=kb:writebytes</stringProp>
+            </collectionProp>
+          </collectionProp>
+        </kg.apc.jmeter.perfmon.PerfMonCollector>
+        <hashTree/>
+        <kg.apc.jmeter.perfmon.PerfMonCollector guiclass="kg.apc.jmeter.vizualizers.PerfMonGui" testclass="kg.apc.jmeter.perfmon.PerfMonCollector" testname="jp@gc - cache 0 CPU" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+            </value>
+          </objProp>
+          <stringProp name="filename">${script_path}/${cache_0_cpu_report}</stringProp>
+          <longProp name="interval_grouping">1000</longProp>
+          <boolProp name="graph_aggregated">false</boolProp>
+          <stringProp name="include_sample_labels"></stringProp>
+          <stringProp name="exclude_sample_labels"></stringProp>
+          <collectionProp name="metricConnections">
+            <collectionProp name="1481984289">
+              <stringProp name="2103357953">${cache_0}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="66952">CPU</stringProp>
+              <stringProp name="1578265083">label=CPU usage for cache 0</stringProp>
+            </collectionProp>
+          </collectionProp>
+        </kg.apc.jmeter.perfmon.PerfMonCollector>
+        <hashTree/>
+        <kg.apc.jmeter.perfmon.PerfMonCollector guiclass="kg.apc.jmeter.vizualizers.PerfMonGui" testclass="kg.apc.jmeter.perfmon.PerfMonCollector" testname="jp@gc - selfcare CPU" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+            </value>
+          </objProp>
+          <stringProp name="filename">${script_path}/${selfcare_cpu_report}</stringProp>
+          <longProp name="interval_grouping">1000</longProp>
+          <boolProp name="graph_aggregated">false</boolProp>
+          <stringProp name="include_sample_labels"></stringProp>
+          <stringProp name="exclude_sample_labels"></stringProp>
+          <collectionProp name="metricConnections">
+            <collectionProp name="-22467152">
+              <stringProp name="-354990903">${selfcare}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="66952">CPU</stringProp>
+              <stringProp name="-1193962130">label=CPU usage  for selfcare node</stringProp>
+            </collectionProp>
+          </collectionProp>
+        </kg.apc.jmeter.perfmon.PerfMonCollector>
+        <hashTree/>
+        <kg.apc.jmeter.perfmon.PerfMonCollector guiclass="kg.apc.jmeter.vizualizers.PerfMonGui" testclass="kg.apc.jmeter.perfmon.PerfMonCollector" testname="jp@gc - selfcare IO" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+            </value>
+          </objProp>
+          <stringProp name="filename">${script_path}/${selfcare_io_report}</stringProp>
+          <longProp name="interval_grouping">1000</longProp>
+          <boolProp name="graph_aggregated">false</boolProp>
+          <stringProp name="include_sample_labels"></stringProp>
+          <stringProp name="exclude_sample_labels"></stringProp>
+          <collectionProp name="metricConnections">
+            <collectionProp name="532944712">
+              <stringProp name="-354990903">${selfcare}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="2112896831">Disks I/O</stringProp>
+              <stringProp name="-1780429359">label=selfcare IO read(KB):unit=kb:readbytes</stringProp>
+            </collectionProp>
+            <collectionProp name="-301536854">
+              <stringProp name="-354990903">${selfcare}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="2112896831">Disks I/O</stringProp>
+              <stringProp name="1174233415">label=selfcare IO write(KB):unit=kb:writebytes</stringProp>
+            </collectionProp>
+          </collectionProp>
+        </kg.apc.jmeter.perfmon.PerfMonCollector>
+        <hashTree/>
+        <kg.apc.jmeter.perfmon.PerfMonCollector guiclass="kg.apc.jmeter.vizualizers.PerfMonGui" testclass="kg.apc.jmeter.perfmon.PerfMonCollector" testname="jp@gc - selfcare network" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+            </value>
+          </objProp>
+          <stringProp name="filename">${script_path}/${selfcare_network_report}</stringProp>
+          <longProp name="interval_grouping">1000</longProp>
+          <boolProp name="graph_aggregated">false</boolProp>
+          <stringProp name="include_sample_labels"></stringProp>
+          <stringProp name="exclude_sample_labels"></stringProp>
+          <collectionProp name="metricConnections">
+            <collectionProp name="1415757886">
+              <stringProp name="-354990903">${selfcare}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="-274342153">Network I/O</stringProp>
+              <stringProp name="1972421328">label=network sent forselfcare (kb):unit=kb:bytessent</stringProp>
+            </collectionProp>
+            <collectionProp name="-844132505">
+              <stringProp name="-354990903">${selfcare}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="-274342153">Network I/O</stringProp>
+              <stringProp name="1335193561">label=network recerive for selfcare (kb):unit=kb:bytesrecv</stringProp>
+            </collectionProp>
+          </collectionProp>
+        </kg.apc.jmeter.perfmon.PerfMonCollector>
+        <hashTree/>
+        <kg.apc.jmeter.perfmon.PerfMonCollector guiclass="kg.apc.jmeter.vizualizers.PerfMonGui" testclass="kg.apc.jmeter.perfmon.PerfMonCollector" testname="jp@gc - selfcare jvm" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+            </value>
+          </objProp>
+          <stringProp name="filename">${script_path}/${selfcare_jvm_report}</stringProp>
+          <longProp name="interval_grouping">1000</longProp>
+          <boolProp name="graph_aggregated">false</boolProp>
+          <stringProp name="include_sample_labels"></stringProp>
+          <stringProp name="exclude_sample_labels"></stringProp>
+          <collectionProp name="metricConnections">
+            <collectionProp name="-267285417">
+              <stringProp name="-354990903">${selfcare}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="73589">JMX</stringProp>
+              <stringProp name="1012067325">url=${selfcare}\:${selfcare_jmx_port}:label=JVM:unit=mb:memory-usage</stringProp>
+            </collectionProp>
+            <collectionProp name="-1274338877">
+              <stringProp name="-354990903">${selfcare}</stringProp>
+              <stringProp name="-1455063680">${monitor_port}</stringProp>
+              <stringProp name="73589">JMX</stringProp>
+              <stringProp name="118755186">url=${selfcare}\:${selfcare_jmx_port}:label=GC time:gc-time</stringProp>
+            </collectionProp>
+          </collectionProp>
+        </kg.apc.jmeter.perfmon.PerfMonCollector>
+        <hashTree/>
+        <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="true">
+          <stringProp name="maximumValue">1000009</stringProp>
+          <stringProp name="minimumValue">10</stringProp>
+          <stringProp name="outputFormat"></stringProp>
+          <boolProp name="perThread">true</boolProp>
+          <stringProp name="randomSeed"></stringProp>
+          <stringProp name="variableName">customerId</stringProp>
+        </RandomVariableConfig>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="get my bills from runtime 0" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${runtime_0}</stringProp>
+          <stringProp name="HTTPSampler.port">${runtime_0_port}</stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/primary/MyBillsPage</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">true</boolProp>
+          <boolProp name="HTTPSampler.monitor">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="49586">200</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">name</stringProp>
+                <stringProp name="Header.value">${customerId}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="get my bill detail from runtime 0" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${runtime_0}</stringProp>
+          <stringProp name="HTTPSampler.port">${runtime_0_port}</stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/primary/MyBillDetailsPage?billNo=${customerId}00001</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">true</boolProp>
+          <boolProp name="HTTPSampler.monitor">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="49586">200</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">name</stringProp>
+                <stringProp name="Header.value">${customerId}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

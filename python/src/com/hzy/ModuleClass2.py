@@ -1,5 +1,5 @@
 '''
-Created on 2015年7月31日
+Created on 2015-7-31
 
 @author: huangzha
 '''
@@ -33,3 +33,14 @@ class MyClass2(object):
     
     def printName(self):
         print(self.name)
+
+
+
+
+if  __name__=='__main__':
+    myclass=MyClass("xiaoming")
+    getattr(myclass, 'printName').__call__()
+#     myclass.printName()
+    
+    
+    

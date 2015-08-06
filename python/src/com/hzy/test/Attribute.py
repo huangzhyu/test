@@ -12,12 +12,12 @@ class Attribute:
         self.name=params
     
     
-    def __setattr__(self,key,value):
-        '''
-        当设置类实例属性时自动调用，如j.name=5 就会调用__setattr__方法
-        '''
-        if value and key=="name":
-            return object.__setattr__(self, key, value) 
+#     def __setattr__(self,key,value):
+#         '''
+#         当设置类实例属性时自动调用，如j.name=5 就会调用__setattr__方法
+#         '''
+#         if value and key=="name":
+#             return object.__setattr__(self, key, value) 
 
 
     def __getattr__(self,key):

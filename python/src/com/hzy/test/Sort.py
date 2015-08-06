@@ -4,7 +4,7 @@ Created on 2015年7月31日
 
 @author: huangzha
 '''
-from _operator import attrgetter
+# from _operator import attrgetter
 
 
 
@@ -21,7 +21,12 @@ class Student:
         return repr((self.name, self.grade, self.age)) 
 
 
-
+    def __cmp__(self,Student):
+        '''
+        called by python when object compare 
+        '''
+        return 1
+        print "cmp"
 
 
 if __name__ == '__main__':
@@ -44,8 +49,12 @@ if __name__ == '__main__':
     print(lst)
     
 #     按照年级和年龄排序
-    lst=sorted(student_tuples,key=attrgetter("grade","age"))
-    print(lst)
+#     lst=sorted(student_tuples,key=attrgetter("grade","age"))
+#     print(lst)
+    
+    
+    print(Student('john', 'A', 15)==Student('john', 'A', 15))
+    print(Student('john', 'A', 15)>Student('john', 'A', 15))
     
     
     pass
