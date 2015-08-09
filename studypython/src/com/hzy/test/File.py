@@ -31,7 +31,7 @@ def readFile(path):
 #     print(file.__doc__)
     print("The content of the file is: \n"+f.read())
     print("The length of the file is :"+str(f.tell()))
-    file.close()
+    f.close()
     print("The file is :"+str(1 and f.closed and "Closed" or "Open"))
     
 
