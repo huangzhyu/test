@@ -38,23 +38,26 @@ if __name__ == '__main__':
         Student('dave', 'B', 12),
     ] 
 #     排序前
-    print(student_tuples)
+#     print(student_tuples)
     
 #     按照年龄升序
-    lst=sorted(student_tuples,key=lambda student:student.age)
-    print(lst)
+#     lst=sorted(student_tuples,key=lambda student:student.age)
+#     print(lst)
     
     #     按照年龄升序
-    lst=sorted(student_tuples,key=lambda student:student.age,reverse=True)
-    print(lst)
+#     lst=sorted(student_tuples,key=lambda student:student.age,reverse=True)
+#     print(lst)
     
 #     按照年级和年龄排序
 #     lst=sorted(student_tuples,key=attrgetter("grade","age"))
 #     print(lst)
     
     
-    print(Student('john', 'A', 15)==Student('john', 'A', 15))
-    print(Student('john', 'A', 15)>Student('john', 'A', 15))
+#     print(Student('john', 'A', 15)==Student('john', 'A', 15))
+#     print(Student('john', 'A', 15)>Student('john', 'A', 15))
+    
+    for stu in student_tuples:
+        print(stu.__dict__)
     
     
     pass
