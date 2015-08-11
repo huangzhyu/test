@@ -33,7 +33,10 @@ if __name__ == '__main__':
     print(a==b)
     print(a is b)  
     
-    
+    container=[]
     for i in range(10):
-        print(fibonaci(i))
+        container.append(fibonaci(i))
+        
+    print(len(container))
+    print(container)
     

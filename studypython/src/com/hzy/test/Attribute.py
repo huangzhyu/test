@@ -12,20 +12,6 @@ class Attribute:
         self.name=params
     
     
-#     def __setattr__(self,key,value):
-#         '''
-#         当设置类实例属性时自动调用，如j.name=5 就会调用__setattr__方法
-#         '''
-#         if value and key=="name":
-#             return object.__setattr__(self, key, value) 
-
-
-    def __getattr__(self,key):
-        '''
-        当使用点号获取实例属性时，如果属性不存在就自动调用__getattr__方法
-        '''
-        return "not found"
-    
     
     def __repr__(self):
         '''
@@ -66,6 +52,7 @@ if __name__ == '__main__':
     attr = Attribute("a")
     attr2 = Attribute("b")
     attr3 = Attribute("c")
+    print(attr)
     #根据name属性排序
     print(sorted([attr2,attr3,attr],key=lambda x:x.name))
 

@@ -47,5 +47,5 @@ if __name__ == '__main__':
     fileDir=os.path.join(os.getcwd(),"jmeter scripts")
     
     for f in os.listdir(fileDir):
-        print(f)
+#         print(f)
         parser.parse(os.path.join(fileDir,f))
