@@ -1,0 +1,214 @@
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:56 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:50:16 MongoTemplate.java DEBUG find tableName task ,where { "typeName" : "教育"}  ,filter null ,sortBy null,skip 0 ,limit0
+2015-11-09 19:53:44 MongoTemplate.java DEBUG find tableName task ,where { "typeName" : "教育"}  ,filter null ,sortBy null,skip 0 ,limit0
+2015-11-09 19:53:44 MongoTemplate.java DEBUG getCollection : task
+2015-11-09 19:53:45 MongoTemplate.java DEBUG result : [{_id=563c88400cf2597d8d9cd29c, startTime=2015-11-06T19:00, typeName=教育, amounts=4661, location=[ 104.069297 , 30.621692], descript=石丹好的并不多, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=, joiner=[ ], creater=13658011651, state=1040, create_time=Fri Nov 06 19:00:16 CST 2015, paying_time=Fri Nov 06 19:28:05 CST 2015, paid_time=Sat Nov 07 01:19:30 CST 2015}, {_id=563c912e017e810e02044ea4, startTime=2015-11-06T19:40, typeName=教育, amounts=1, location=[ 104.068934 , 30.621616], descript=飞机竞技场, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=, joiner=[ ], creater=13658011651, state=1040, create_time=Fri Nov 06 19:38:22 CST 2015, paying_time=Sun Nov 08 19:53:41 CST 2015, paid_time=Mon Nov 09 15:54:39 CST 2015}, {_id=563c91c3017e810e02044ea5, startTime=2015-11-06T19:42, typeName=教育, amounts=1, location=[ 104.068801 , 30.621541], descript=v建兵v你才, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=, joiner=[ ], creater=13658011651, state=1030, create_time=Fri Nov 06 19:40:51 CST 2015, paying_time=Sun Nov 08 20:45:31 CST 2015}, {_id=563f12f60cf2597d8d9cd29f, startTime=2015-11-08T17:16, typeName=教育, amounts=111111111111.22, location=[ 104.069154 , 30.621728], descript=陈家祠将错就错将错就错警察局复读机收到回复警察局开发九叔邮单号v狂惭愧惭愧刺激刺激洗剪吹继续继续警察局陈家祠将错就错静川, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=, joiner=[ ], creater=13658011651, state=2000, create_time=Sun Nov 08 17:16:38 CST 2015}, {_id=563f152c0cf2597d8d9cd2a1, startTime=2015-11-08T17:25, typeName=教育, amounts=1243468静川聚警察局, location=[ 104.069134 , 30.621624], descript=就更加笑哈哈翻江倒海都快v蝗虫巨款都不错脑出血不喜欢吃基础上喜欢吃时候放假凤凰城女警刺激刺激, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=2015-11-08T17:25, joiner=[ ], creater=13658011651, state=2000, create_time=Sun Nov 08 17:26:04 CST 2015}, {_id=563f153b0cf2597d8d9cd2a2, startTime=2015-11-08T17:26, typeName=教育, amounts=11234, location=[ 104.069134 , 30.621624], descript=女时亏v桑v上厕所聚聚数据数据的坚持数据数据数据时亏v都快v时亏, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=2015-11-08T14:26, joiner=[ ], creater=13658011651, state=2000, create_time=Sun Nov 08 17:26:19 CST 2015}, {_id=563f15ea0cf2597d8d9cd2a3, startTime=2015-11-08T17:29, typeName=教育, amounts=2345, location=[ 104.069048 , 30.621666], descript=金额v康生v狂v上扣扣v, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=2015-11-08T16:29, joiner=[ ], creater=13658011651, state=2000, create_time=Sun Nov 08 17:29:14 CST 2015}, {_id=563f163e0cf2597d8d9cd2a4, startTime=2015-11-08T17:30, typeName=教育, amounts=1, location=[ 104.069132 , 30.621706], descript=建兵时间不是, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=2013-11-08T17:30, joiner=[ ], creater=13658011651, state=2000, create_time=Sun Nov 08 17:30:38 CST 2015}, {_id=563f16810cf2597d8d9cd2a5, startTime=2015-11-08T17:31, typeName=教育, amounts=1, location=[ 104.069125 , 30.621731], descript=建兵文树v见死不救, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=2015-11-08T17:31, joiner=[ ], creater=13658011651, state=2000, create_time=Sun Nov 08 17:31:45 CST 2015}, {_id=563f20910cf2597d8d9cd2a6, startTime=2015-11-08T18:14, typeName=教育, amounts=11, location=[ 104.069043 , 30.621682], descript=洪承畴程浩, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=烹饪, deadline=2015-11-08T18:14, joiner=[ ], creater=13658011651, state=2000, create_time=Sun Nov 08 18:14:41 CST 2015}, {_id=563f13560cf2597d8d9cd2a0, startTime=2015-11-08T17:18, typeName=教育, amounts=2222, location=[ 104.068569 , 30.621511], descript=将错就错坚持坚持陈家祠将错就错警察局陈家祠将错就错警察局陈家祠将错就错警察局, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=2015-11-08T17:18, joiner=[ ], creater=13658011651, state=1040, create_time=Sun Nov 08 17:18:14 CST 2015, paying_time=Mon Nov 09 15:23:32 CST 2015, paid_time=Mon Nov 09 15:30:16 CST 2015}]
