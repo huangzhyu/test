@@ -1,0 +1,180 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Header />
+	<SOAP-ENV:Body>
+		<financialTransactionSearchResponse
+			xmlns="http://ericsson.com/services/ws_CIL_5/financialtransactionsearch">
+			<transactions>
+				<item>
+					<transactionId>102</transactionId>
+					<transactionRefnum>test1</transactionRefnum>
+					<csId>84</csId>
+					<csIdPub>84</csIdPub>
+					<entryDate>2015-06-12</entryDate>
+					<refDate>2015-06-12</refDate>
+					<transCodePub>CE2DD</transCodePub>
+					<amountCashPay>
+						<amount xmlns="http://lhsgroup.com/lhsws/money">0.9</amount>
+						<currency xmlns="http://lhsgroup.com/lhsws/money">EUR</currency>
+					</amountCashPay>
+					<amountCurrent>
+						<amount xmlns="http://lhsgroup.com/lhsws/money">0.9</amount>
+						<currency xmlns="http://lhsgroup.com/lhsws/money">EUR</currency>
+					</amountCurrent>
+					<glAccount>BKA000B01CITY00Z00RV</glAccount>
+					<paymentMethodId>-1</paymentMethodId>
+					<buId>2</buId>
+				</item>
+				<item>
+					<transactionId>107</transactionId>
+					<transactionRefnum>test6</transactionRefnum>
+					<csId>84</csId>
+					<csIdPub>84</csIdPub>
+					<entryDate>2015-06-12</entryDate>
+					<refDate>2015-06-12</refDate>
+					<transCodePub>CE2DD</transCodePub>
+					<amountCashPay>
+						<amount xmlns="http://lhsgroup.com/lhsws/money">10.0</amount>
+						<currency xmlns="http://lhsgroup.com/lhsws/money">EUR</currency>
+					</amountCashPay>
+					<amountCurrent>
+						<amount xmlns="http://lhsgroup.com/lhsws/money">10.0</amount>
+						<currency xmlns="http://lhsgroup.com/lhsws/money">EUR</currency>
+					</amountCurrent>
+					<glAccount>BKA000B01CITY00Z00RV</glAccount>
+					<paymentMethodId>-1</paymentMethodId>
+					<buId>2</buId>
+				</item>
+				<item>
+					<transactionId>106</transactionId>
+					<transactionRefnum>test5</transactionRefnum>
+					<csId>84</csId>
+					<csIdPub>84</csIdPub>
+					<entryDate>2015-06-12</entryDate>
+					<refDate>2015-06-12</refDate>
+					<transCodePub>CE2DD</transCodePub>
+					<amountCashPay>
+						<amount xmlns="http://lhsgroup.com/lhsws/money">0.9</amount>
+						<currency xmlns="http://lhsgroup.com/lhsws/money">EUR</currency>
+					</amountCashPay>
+					<amountCurrent>
+						<amount xmlns="http://lhsgroup.com/lhsws/money">0.9</amount>
+						<currency xmlns="http://lhsgroup.com/lhsws/money">EUR</currency>
+					</amountCurrent>
+					<glAccount>BKA000B01CITY00Z00RV</glAccount>
+					<paymentMethodId>-1</paymentMethodId>
+					<buId>2</buId>
+				</item>
+				<item>
+					<transactionId>108</transactionId>
+					<csId>84</csId>
+					<csIdPub>84</csIdPub>
+					<entryDate>2015-06-12</entryDate>
+					<refDate>2015-06-12</refDate>
+					<transCodePub>BAL</transCodePub>
+					<buId>2</buId>
+				</item>
+				<item>
+					<transactionId>101</transactionId>
+					<transactionRefnum>test</transactionRefnum>
+					<csId>84</csId>
+					<csIdPub>84</csIdPub>
+					<entryDate>2015-06-12</entryDate>
+					<refDate>2015-06-12</refDate>
+					<transCodePub>CE2DD</transCodePub>
+					<amountCashPay>
+						<amount xmlns="http://lhsgroup.com/lhsws/money">36.37</amount>
+						<currency xmlns="http://lhsgroup.com/lhsws/money">EUR</currency>
+					</amountCashPay>
+					<amountCurrent>
+						<amount xmlns="http://lhsgroup.com/lhsws/money">36.37</amount>
+						<currency xmlns="http://lhsgroup.com/lhsws/money">EUR</currency>
+					</amountCurrent>
+					<glAccount>BKA000B01CITY00Z00RV</glAccount>
+					<paymentMethodId>-1</paymentMethodId>
+					<buId>2</buId>
+				</item>
+				<item>
+					<transactionId>104</transactionId>
+					<transactionRefnum>test3</transactionRefnum>
+					<csId>84</csId>
+					<csIdPub>84</csIdPub>
+					<entryDate>2015-06-12</entryDate>
+					<refDate>2015-06-12</refDate>
+					<transCodePub>CE2DD</transCodePub>
+					<amountCashPay>
+						<amount xmlns="http://lhsgroup.com/lhsws/money">0.9</amount>
+						<currency xmlns="http://lhsgroup.com/lhsws/money">EUR</currency>
+					</amountCashPay>
+					<amountCurrent>
+						<amount xmlns="http://lhsgroup.com/lhsws/money">0.9</amount>
+						<currency xmlns="http://lhsgroup.com/lhsws/money">EUR</currency>
+					</amountCurrent>
+					<glAccount>BKA000B01CITY00Z00RV</glAccount>
+					<paymentMethodId>-1</paymentMethodId>
+					<buId>2</buId>
+				</item>
+				<item>
+					<transactionId>103</transactionId>
+					<transactionRefnum>test2</transactionRefnum>
+					<csId>84</csId>
+					<csIdPub>84</csIdPub>
+					<entryDate>2015-06-12</entryDate>
+					<refDate>2015-06-12</refDate>
+					<transCodePub>CE2DD</transCodePub>
+					<amountCashPay>
+						<amount xmlns="http://lhsgroup.com/lhsws/money">0.9</amount>
+						<currency xmlns="http://lhsgroup.com/lhsws/money">EUR</currency>
+					</amountCashPay>
+					<amountCurrent>
+						<amount xmlns="http://lhsgroup.com/lhsws/money">0.9</amount>
+						<currency xmlns="http://lhsgroup.com/lhsws/money">EUR</currency>
+					</amountCurrent>
+					<glAccount>BKA000B01CITY00Z00RV</glAccount>
+					<paymentMethodId>-1</paymentMethodId>
+					<buId>2</buId>
+				</item>
+				<item>
+					<transactionId>105</transactionId>
+					<transactionRefnum>test4</transactionRefnum>
+					<csId>84</csId>
+					<csIdPub>84</csIdPub>
+					<entryDate>2015-06-12</entryDate>
+					<refDate>2015-06-12</refDate>
+					<transCodePub>CE2DD</transCodePub>
+					<amountCashPay>
+						<amount xmlns="http://lhsgroup.com/lhsws/money">0.9</amount>
+						<currency xmlns="http://lhsgroup.com/lhsws/money">EUR</currency>
+					</amountCashPay>
+					<amountCurrent>
+						<amount xmlns="http://lhsgroup.com/lhsws/money">0.9</amount>
+						<currency xmlns="http://lhsgroup.com/lhsws/money">EUR</currency>
+					</amountCurrent>
+					<glAccount>BKA000B01CITY00Z00RV</glAccount>
+					<paymentMethodId>-1</paymentMethodId>
+					<buId>2</buId>
+				</item>
+				<item>
+					<transactionId>109</transactionId>
+					<transactionRefnum>teest5</transactionRefnum>
+					<csId>84</csId>
+					<csIdPub>84</csIdPub>
+					<entryDate>2015-06-12</entryDate>
+					<refDate>2015-06-12</refDate>
+					<transCodePub>CE2DD</transCodePub>
+					<amountCashPay>
+						<amount xmlns="http://lhsgroup.com/lhsws/money">6.2</amount>
+						<currency xmlns="http://lhsgroup.com/lhsws/money">EUR</currency>
+					</amountCashPay>
+					<amountCurrent>
+						<amount xmlns="http://lhsgroup.com/lhsws/money">6.2</amount>
+						<currency xmlns="http://lhsgroup.com/lhsws/money">EUR</currency>
+					</amountCurrent>
+					<glAccount>BKA000B01CITY00Z00RV</glAccount>
+					<paymentMethodId>-1</paymentMethodId>
+					<buId>2</buId>
+				</item>
+			</transactions>
+			<searchIsComplete>true</searchIsComplete>
+		</financialTransactionSearchResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
