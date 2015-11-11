@@ -18,7 +18,6 @@ public class CheckoutFacadeImpl implements CheckoutFacade {
 	        throw new UnsupportedOperationException("Cannot use this kind of Executor: "+divideTaskExecutor);
 	    }
         this.divideTaskExecutor = divideTaskExecutor;
-//        divideTaskExecutor.submit();
     }
 
 	@Override
