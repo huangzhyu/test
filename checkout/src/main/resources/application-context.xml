@@ -7,7 +7,9 @@
     http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
 	<context:annotation-config />
-	<context:property-placeholder location="classpath:jdbc.properties" />
+	
+	<context:property-placeholder location="classpath:database.properties" ignore-unresolvable="true"/>
+	
 	<bean id="divideTaskStrategy" class="com.damuzee.strategy.impl.DivideTaskStrategy" />
 
 	<bean id="checkoutStrategy" class="com.damuzee.strategy.impl.CheckoutStrategy" />
@@ -37,12 +39,20 @@
 	<!-- 分割线 -->
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-		<property name="driverClassName" value="${driverClassName}" />
-		<property name="url" value="${url}" />
-		<property name="username" value="${username}" />
-		<property name="password" value="${password}" />
+		<property name="driverClassName" value="${mysql.driverClassName}" />
+		<property name="url" value="${mysql.url}" />
+		<property name="username" value="${mysql.username}" />
+		<property name="password" value="${mysql.password}" />
 	</bean>
-
+	
+	<bean id="mongoFactory" class="org.damuzee.mongo.factory.SimpleMongoFactory">
+		<property name="host" value="${mongo.host}" />
+		<property name="port" value="${mongo.port}" />
+		<property name="dbName" value="${mongo.dbname}" />
+	</bean>
+	<bean id="mongoTemplate" class="org.damuzee.mongo.MongoTemplate">
+		<constructor-arg name="mongoFactory" ref="mongoFactory" />
+	</bean>
 	<bean id="transactionManager"
 		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
 		<property name="dataSource">
@@ -60,7 +70,7 @@
 		<property name="dataSource" ref="dataSource" />
 	</bean>
 	
-		<bean id="integralDao" class="com.damuzee.db.IntegralDataAccessImpl">
+		<bean id="integralDao" class="com.damuzee.db.IntegralAccessImpl">
 		<property name="transactionTemplate">
 			<bean class="org.springframework.transaction.support.TransactionTemplate">
 				<property name="transactionManager" ref="transactionManager" />

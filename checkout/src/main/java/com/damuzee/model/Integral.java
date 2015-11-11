@@ -1,9 +1,6 @@
 package com.damuzee.model;
 
 import java.sql.Timestamp;
-import java.util.ArrayList;
-import java.util.List;
-
 import com.damuzee.common.Operation;
 
 
@@ -14,7 +11,6 @@ public class Integral {
     private int ratio;
     private String orderId;
     private byte type;
-    private List<Integral> parents;
     /**
      * 
      * @return 用户编号
@@ -115,21 +111,15 @@ public class Integral {
         
     }
 
-    /**
-     * 
-     * @return 包含了当前用户的上线应得的积分
-     */
-    public List<Integral> getParents() {
-        return parents==null ? new ArrayList<Integral>() : parents;
-    }
-
-    /**
-     * 设置当前用户的上线应得的积分
-     * @param parents 上线应得积分的集合
-     */
-    public void setParents(List<Integral> parents) {
-        this.parents = parents;
-    }
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder(50);
+		sb.append("userId:").append(userId).append(" time:").append(time).append(" count:")
+		.append(count).append(" ratio:").append(ratio).append(" orderId:").append(orderId)
+		.append(" type:").append(type==0?Operation.INCOME:Operation.PAY);
+		return sb.toString();
+	}
+    
     
     
 }

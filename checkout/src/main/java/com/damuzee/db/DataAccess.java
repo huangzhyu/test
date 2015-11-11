@@ -7,7 +7,7 @@ public interface DataAccess<T> {
      * 增加一条记录
      * @param t
      */
-    public void add(T t);
+    public void add(List<T> t);
     /**
      * 删除一条或多条记录
      * @param t

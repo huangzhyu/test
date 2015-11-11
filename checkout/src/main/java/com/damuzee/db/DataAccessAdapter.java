@@ -2,6 +2,7 @@ package com.damuzee.db;
 
 import java.util.List;
 
+import org.damuzee.mongo.MongoTemplate;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
 import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.support.TransactionCallback;
@@ -10,8 +11,19 @@ import org.springframework.transaction.support.TransactionTemplate;
 public abstract class DataAccessAdapter<T> extends JdbcDaoSupport implements DataAccess<T>,TransactionCallback<T>{
     
     private TransactionTemplate transactionTemplate;
+    private MongoTemplate mongoTemplate;
 
-    public TransactionTemplate getTransactionTemplate() {
+    public MongoTemplate getMongoTemplate() {
+		return mongoTemplate;
+	}
+
+
+	public void setMongoTemplate(MongoTemplate mongoTemplate) {
+		this.mongoTemplate = mongoTemplate;
+	}
+
+
+	public TransactionTemplate getTransactionTemplate() {
         return transactionTemplate;
     }
 
@@ -21,7 +33,7 @@ public abstract class DataAccessAdapter<T> extends JdbcDaoSupport implements Dat
     }
 
     @Override
-    public void add(T t) {
+    public void add(List<T> t) {
         throw new UnsupportedOperationException("Not implemented yet.");
     }
 
@@ -47,6 +59,8 @@ public abstract class DataAccessAdapter<T> extends JdbcDaoSupport implements Dat
 
 
     @Override
-    public abstract T doInTransaction(TransactionStatus paramTransactionStatus);
+    public T doInTransaction(TransactionStatus paramTransactionStatus){
+    	return null;
+    }
 
 }
