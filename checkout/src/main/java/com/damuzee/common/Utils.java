@@ -1,5 +1,6 @@
 package com.damuzee.common;
 
+import java.sql.Timestamp;
 import java.util.Map;
 
 public class Utils {
@@ -13,5 +14,9 @@ public class Utils {
 			return str==null || str.trim().equals("");
 		}
 		return t==null;
+	}
+	
+	public static Timestamp getCurrentTime(){
+		return new Timestamp(System.currentTimeMillis());
 	}
 }
