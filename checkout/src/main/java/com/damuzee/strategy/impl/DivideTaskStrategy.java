@@ -79,12 +79,13 @@ public class DivideTaskStrategy implements Strategy<Member> {
         	integral.setTime(currentTime);
         	integral.setConversion(config.getConversion());
         	integrals.add(integral);
-        	System.out.println(integral);
 		}
 
         ResultHolder holder = new ResultHolder();
         holder.setOrderId(memberArg.getOrderId());
         holder.setIntegrals(integrals);
+        holder.setType(creater.getOperationType());
+        holder.setTime(currentTime);
         return holder;
     }
     

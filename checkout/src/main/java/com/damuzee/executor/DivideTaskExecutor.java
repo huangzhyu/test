@@ -28,12 +28,12 @@ public class DivideTaskExecutor extends Executor<Member> {
 	
 	@PostConstruct 
 	public void init(){
-//		new Thread(new Runnable() {
-//			@Override
-//			public void run() {
-//				DivideTaskExecutor.this.onComplete();
-//			}
-//		}).start();
+		new Thread(new Runnable() {
+			@Override
+			public void run() {
+				DivideTaskExecutor.this.onComplete();
+			}
+		}).start();
 	}
 
 	@Override

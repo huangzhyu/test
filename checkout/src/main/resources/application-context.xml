@@ -58,8 +58,8 @@
 		</property>
 
 	</bean>
-
-	<bean id="integralDao" class="com.damuzee.db.IntegralAccessImpl">
+	
+	<bean id="dataAccessAdapter" class="com.damuzee.db.DataAccessAdapter" abstract="true">
 		<property name="transactionTemplate">
 			<bean class="org.springframework.transaction.support.TransactionTemplate">
 				<property name="transactionManager" ref="transactionManager" />
@@ -69,9 +69,18 @@
 		<property name="dataSource" ref="dataSource" />
 	</bean>
 
+	<bean id="integralDao" class="com.damuzee.db.IntegralAccessImpl" parent="dataAccessAdapter" />
+
 	<bean id="memberDao" class="com.damuzee.db.MemberAccessImpl">
 		<property name="mongoTemplate" ref="mongoTemplate" />
 		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="failedOrderDao" class="com.damuzee.db.FailedOrderAccessImpl" parent="dataAccessAdapter" />
+	
+	<bean id="integralService" class="com.damuzee.service.IntegralService">
+		<property name="integralAccess" ref="integralDao"/>
+		<property name="orderAccess" ref="failedOrderDao" />
 	</bean>
 
 
@@ -81,7 +90,7 @@
 	</bean>
 
 	<bean id="checkoutStrategy" class="com.damuzee.strategy.impl.CheckoutStrategy">
-		<property name="dataAccess" ref="integralDao" />
+		<property name="integralService" ref="integralService" />
 	</bean>
 
 	<bean id="checkoutExecutor" class="com.damuzee.executor.CheckoutExecutor" />

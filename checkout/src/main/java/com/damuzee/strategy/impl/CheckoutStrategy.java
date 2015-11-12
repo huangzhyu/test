@@ -1,26 +1,24 @@
 package com.damuzee.strategy.impl;
 
-import java.util.List;
-
-import com.damuzee.db.DataAccess;
-import com.damuzee.model.Integral;
 import com.damuzee.model.ResultHolder;
+import com.damuzee.service.IntegralService;
 import com.damuzee.strategy.Strategy;
 
 public class CheckoutStrategy implements Strategy<ResultHolder> {
-	private DataAccess<ResultHolder> dataAccess;
-	
-    public DataAccess<ResultHolder> getDataAccess() {
-		return dataAccess;
+	private IntegralService integralService;
+
+
+	public IntegralService getIntegralService() {
+		return integralService;
 	}
 
-	public void setDataAccess(DataAccess<ResultHolder> dataAccess) {
-		this.dataAccess = dataAccess;
+	public void setIntegralService(IntegralService integralService) {
+		this.integralService = integralService;
 	}
 
 	@Override
     public ResultHolder doOperation(ResultHolder holder) {
-        dataAccess.add(holder);
+		integralService.add(holder);
         return null;
     }
 

@@ -1,7 +1,6 @@
 package com.damuzee.common;
 
 public interface Constant {
-    int SCALE=3;
     String PAY_ORDER_TABLE="payOrder";
     String ORDER_NO="orderNO";
     String TASK_ID="taskID";

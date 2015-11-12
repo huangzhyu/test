@@ -22,16 +22,11 @@ public class CheckoutFacadeImpl implements CheckoutFacade {
     }
 
 	@Override
-	public void checkout(String orderId) {
+	public void checkout(String orderId,Operation operation) {
 	    Member member = new Member(orderId);
-	    member.setOperationType(Operation.INCOME);
+	    member.setOperationType(operation);
 		divideTaskExecutor.submit(member);
 		logger.info("New order "+orderId+" added into the divide Task thread pool.");
 	}
-
-    @Override
-    public void exchange(Object obj) {
-        
-    }
 
 }

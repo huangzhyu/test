@@ -6,8 +6,9 @@ public interface DataAccess<T> {
     /**
      * 增加一条记录
      * @param t
+     * @return 成功返回true
      */
-    public void add(T t);
+    public boolean add(T t);
     /**
      * 删除一条或多条记录
      * @param t
@@ -25,7 +26,7 @@ public interface DataAccess<T> {
     
     public T getFirst(T t);
     /**
-     * 返回所有记录
+     * 返回满足条件的所有记录
      * @param t
      * @return
      */

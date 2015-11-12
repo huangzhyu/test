@@ -5,8 +5,6 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.concurrent.CountDownLatch;
 
-import junit.framework.Assert;
-
 import org.damuzee.mongo.MongoTemplate;
 import org.damuzee.mongo.SimpleMapObject;
 import org.junit.Before;
@@ -15,11 +13,15 @@ import org.mockito.Mockito;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import com.damuzee.common.Operation;
+import com.damuzee.common.Utils;
+import com.damuzee.db.FailedOrderAccessImpl;
 import com.damuzee.db.IntegralAccessImpl;
 import com.damuzee.db.MemberAccessImpl;
 import com.damuzee.executor.ThreadPoolFactory;
 import com.damuzee.facade.CheckoutFacade;
 import com.damuzee.model.Config;
+import com.damuzee.model.FailedOrder;
 import com.damuzee.model.Integral;
 import com.damuzee.model.Member;
 import com.damuzee.model.ResultHolder;
@@ -51,7 +53,7 @@ public class CheckoutFacadeImplTest {
     
 
 	@Test
-    public void testCheckout() {
+    public void testCheckoutSuccess() {
 		int threadNum=1;
         final CheckoutFacade impl = context.getBean("checkoutFacade", CheckoutFacade.class);
         final CountDownLatch counter = new CountDownLatch(1);
@@ -64,7 +66,7 @@ public class CheckoutFacadeImplTest {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    impl.checkout("14468118502374438320");
+                    impl.checkout("14468118502374438320",Operation.INCOME);
                 }
             });
             threads[i].start();
@@ -87,6 +89,7 @@ public class CheckoutFacadeImplTest {
     }
 	
 	
+	
 	@Test
 	public void testConfig(){
 	    Config config = context.getBean(Config.class);
@@ -98,7 +101,26 @@ public class CheckoutFacadeImplTest {
 	}
 	
 	@Test
-	public void testAdd(){
+	public void testAddFailedOrder(){
+		FailedOrderAccessImpl orderAccess = context.getBean(FailedOrderAccessImpl.class);
+		FailedOrder order = new FailedOrder();
+		order.setOrderId("askdjfbkasdbfaksjdbfksa");
+		order.setTime(Utils.getCurrentTime());
+		order.setType((byte) 0);
+		order.setStatus((byte) 1);
+		orderAccess.add(order);
+	}
+	
+	@Test
+	public void getAllFailedOrder(){
+		FailedOrderAccessImpl orderAccess = context.getBean(FailedOrderAccessImpl.class);
+		FailedOrder order = new FailedOrder();
+		order.setStatus((byte) 1);
+		System.out.println(orderAccess.getALL(order));
+	}
+	
+	@Test
+	public void testAddIntegral(){
 	    IntegralAccessImpl impl = context.getBean(IntegralAccessImpl.class);
 	    Integral integral = Mockito.mock(Integral.class);
 	    Mockito.when(integral.getUserId()).thenReturn(Math.random()+"");
@@ -132,7 +154,7 @@ public class CheckoutFacadeImplTest {
         ResultHolder holder = new ResultHolder();
         holder.setIntegrals(integrals);
 	    
-	    impl.add(holder);
+		impl.add(holder);
 	}
 	
 	@Test
@@ -163,6 +185,6 @@ public class CheckoutFacadeImplTest {
 	public void testSingleton(){
 	    ThreadPoolFactory tf1=context.getBean(ThreadPoolFactory.class);
 	    ThreadPoolFactory tf2=context.getBean(ThreadPoolFactory.class);
-	    Assert.assertEquals(tf1, tf2);
+	    System.out.println(tf1==tf2);
 	}
 }

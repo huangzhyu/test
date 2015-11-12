@@ -2,8 +2,6 @@ package com.damuzee.model;
 
 import java.sql.Timestamp;
 
-import com.damuzee.common.Operation;
-
 public class FailedOrder {
     /**
      * 订单号
@@ -15,6 +13,8 @@ public class FailedOrder {
     private Timestamp time;
     
     private byte type;
+    
+    private byte status;
     
     /**
      * 
@@ -44,25 +44,55 @@ public class FailedOrder {
     public void setTime(Timestamp time) {
         this.time = time;
     }
+    
+    /**
+     * 本次积分的类型是兑换还是增加
+     * @return
+     */
+    public byte getType() {
+        return type;
+    }
+    
+    public void setType(byte type){
+    	this.type=type;
+    }
+    
     /**
      * 获取当前order的状态
      * 0：积分成功
      * 1：等待重试
      */
-    public byte getType() {
-        return type;
-    }
+	public byte getStatus() {
+		return status;
+	}
+	
+	/**
+     * 设置当前order的状态
+     * 0：积分成功
+     * 1：等待重试
+     */
+	public void setStatus(byte status) {
+		this.status = status;
+	}
+	@Override
+	public String toString() {
+		return "FailedOrder [orderId=" + orderId + ", time=" + time + ", type=" + type + ", status=" + status + "]";
+	}
+    
+    
     /**
      * 设置order状态
      * @param type 0：积分成功;1:等待重试
      */
-    public void setType(Operation type) {
-        if(Operation.SUCCESS.equals(type)){
-            this.type=0;
-        }else if(Operation.RETRY.equals(type)){
-            this.type=1;
-        }else{
-            throw new IllegalStateException("Only [Operation.SUCCESS] or [Operation.RETRY] supproted.");
-        }
-    }
+//    public void setType(Operation type) {
+//        if(Operation.SUCCESS.equals(type)){
+//            this.type=0;
+//        }else if(Operation.RETRY.equals(type)){
+//            this.type=1;
+//        }else{
+//            throw new IllegalStateException("Only [Operation.SUCCESS] or [Operation.RETRY] supproted.");
+//        }
+//    }
+	
+	
 }
