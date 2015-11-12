@@ -1,8 +1,6 @@
 package com.damuzee.common;
 
 import java.math.BigDecimal;
-import java.math.MathContext;
-import java.math.RoundingMode;
 import java.sql.Timestamp;
 import java.util.Map;
 
@@ -26,20 +24,21 @@ public class Utils {
 	}
 	
 	public static BigDecimal ratioExchange(int percent,int base){
-//	    MathContext mc  = new MathContext(Constant.SCALE,RoundingMode.HALF_EVEN); 
 	    BigDecimal bonusBigDecimal = new BigDecimal(percent);
         BigDecimal baseBigDecimal = new BigDecimal(base);
+//		四舍五入，使用银行家算法让结果更准确
         return bonusBigDecimal.divide(baseBigDecimal).setScale(2, BigDecimal.ROUND_HALF_EVEN);
 	}
 	
 	public static BigDecimal computeBonus(BigDecimal total,BigDecimal ratio){
-//	    MathContext mc  = new MathContext(Constant.SCALE,RoundingMode.HALF_EVEN); 
+//		四舍五入，使用银行家算法让结果更准确
 	    return total.multiply(ratio).setScale(2, BigDecimal.ROUND_HALF_EVEN);
 	}
 	
-	public static String computeIntegral(BigDecimal bonus,BigDecimal ratio,BigDecimal conversion){
-//	    MathContext mc  = new MathContext(Constant.SCALE,RoundingMode.HALF_EVEN); 
-        String result = bonus.multiply(ratio).multiply(conversion).setScale(2, BigDecimal.ROUND_HALF_EVEN).toPlainString();
+	public static int computeIntegral(BigDecimal bonus,BigDecimal ratio,BigDecimal conversion){
+//		四舍五入，使用银行家算法让结果更准确
+        int result = bonus.multiply(ratio).multiply(conversion).setScale(0, BigDecimal.ROUND_HALF_EVEN).intValueExact();
 	    return result;
 	}
+	
 }

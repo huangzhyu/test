@@ -1,13 +1,13 @@
 package com.damuzee.strategy.impl;
 
 import java.math.BigDecimal;
-import java.math.MathContext;
+import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.damuzee.common.Constant;
 import com.damuzee.common.Utils;
 import com.damuzee.db.AbstractMemberAccess;
 import com.damuzee.model.Config;
@@ -46,41 +46,59 @@ public class DivideTaskStrategy implements Strategy<Member> {
     @Override
     public ResultHolder doOperation(Member memberArg) {
         logger.info("Start to process order:"+memberArg.getOrderId());
-        Member currentMember = dataAccess.getFirst(memberArg);
-        if (currentMember == null) {
+        Member creater = dataAccess.getFirst(memberArg);
+        if (creater == null) {
             logger.info("Cannot find the task creater then mission aborted.");
             return null;
         }
-        logger.info("Task creater is:"+currentMember.getUserId());
-        ArrayList<Member> integrals = new ArrayList<Member>();
-        currentMember.setRatio(config.getSelfRatio());
-        integrals.add(currentMember);
-        if (!Utils.isNull(currentMember.getInvitedCode())) {
-            Member superior = dataAccess.getSuperiorMember(currentMember);
+        logger.info("Task creater is:"+creater.getUserId());
+        ArrayList<Member> members = new ArrayList<Member>();
+        creater.setRatio(config.getSelfRatio());
+        members.add(creater);
+        if (!Utils.isNull(creater.getInvitedCode())) {
+            Member superior = dataAccess.getSuperiorMember(creater);
             superior.setRatio(config.getSuperiorRatio());
-            integrals.add(superior);
+            superior.setOrderId(creater.getOrderId());
+            members.add(superior);
             logger.info("The superior of");
             if (!Utils.isNull(superior.getInvitedCode())) {
                 Member finalSuperior = dataAccess.getSuperiorMember(superior);
                 finalSuperior.setRatio(config.getFinalSuperiorRatio());
-                integrals.add(finalSuperior);
+                finalSuperior.setOrderId(creater.getOrderId());
+                members.add(finalSuperior);
             }
         }
-        MathContext mc  = new MathContext(Constant.SCALE);        
-        BigDecimal amount = currentMember.getAmount();
-        BigDecimal bonus = new BigDecimal(config.getBonus());
-        BigDecimal base = new BigDecimal(100);
+        List<Integral> integrals = new ArrayList<Integral>(); 
         
-
-        // integrals.add(integral);
-        // integrals.add(integral2);
-        // integrals.add(integral3);
+        Integral integral = null;
+        BigDecimal totalAmount = creater.getAmount();
+        Timestamp currentTime=Utils.getCurrentTime();
+        for (Member member : members) {
+        	integral = new Integral(member);
+        	integral.setCount(this.computeIntegral(totalAmount, member.getRatio()));
+        	integral.setTime(currentTime);
+        	integral.setConversion(config.getConversion());
+        	integrals.add(integral);
+        	System.out.println(integral);
+		}
 
         ResultHolder holder = new ResultHolder();
-        // holder.setOrderId(orderId);
-//        holder.setIntegrals(integrals);
-        // logger.info("divide "+orderId+" completed");
+        holder.setOrderId(memberArg.getOrderId());
+        holder.setIntegrals(integrals);
         return holder;
     }
+    
+	private int computeIntegral(BigDecimal totalAmount,int userRatio){
+//		计算换算系数
+		BigDecimal conversion = new BigDecimal(config.getConversion());
+//		将百分比换算成小数,计算提成所占总金额的比例
+		BigDecimal basePercent = Utils.ratioExchange(config.getBonus(), 100);
+//		计算用户应得比例
+		BigDecimal userPercent = Utils.ratioExchange(userRatio,100);
+//		计算提成金额
+		BigDecimal bonus = Utils.computeBonus(totalAmount, basePercent);
+//		计算当前用户应得积分
+		return  Utils.computeIntegral(bonus, userPercent, conversion);
+	}
 
 }

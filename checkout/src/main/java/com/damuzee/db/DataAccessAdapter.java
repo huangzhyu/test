@@ -33,7 +33,7 @@ public abstract class DataAccessAdapter<T> extends JdbcDaoSupport implements Dat
     }
 
     @Override
-    public void add(List<T> t) {
+    public void add(T t) {
         throw new UnsupportedOperationException("Not implemented yet.");
     }
 

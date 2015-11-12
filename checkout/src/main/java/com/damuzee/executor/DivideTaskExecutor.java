@@ -42,7 +42,7 @@ public class DivideTaskExecutor extends Executor<Member> {
 		Future<ResultHolder> holder = null;
 		try {
 			for (;;) {
-			    holder = this.threadPool.poll(1000,TimeUnit.MILLISECONDS);
+			    holder = this.threadPool.poll(100,TimeUnit.MILLISECONDS);
 			    if(holder==null || holder.get()==null){
 			    	System.out.println("no result yet.");
 			    	continue;

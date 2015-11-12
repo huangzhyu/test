@@ -7,16 +7,17 @@
     http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
 	<context:annotation-config />
-	
-	<context:property-placeholder location="classpath:database.properties" ignore-unresolvable="true"/>
-	
-	<bean id="threadPoolFactory" class="com.damuzee.executor.ThreadPoolFactory"  scope="singleton">
-	    <!--
-	    若不配置以下属性，则由默认值（Runtime.getRuntime().availableProcessors() + 1）创建线程池
-	     <property name="checkoutThreadPoolSize" value="${pool.checkout.size}"/>
-	    <property name="divideTaskThreadPoolSize" value="${pool.divide.size}"/> -->
+
+	<context:property-placeholder location="classpath:database.properties"
+		ignore-unresolvable="true" />
+
+	<bean id="threadPoolFactory" class="com.damuzee.executor.ThreadPoolFactory"
+		scope="singleton">
+		<!-- 若不配置以下属性，则由默认值（Runtime.getRuntime().availableProcessors() + 1）创建线程池 
+			<property name="checkoutThreadPoolSize" value="${pool.checkout.size}"/> <property 
+			name="divideTaskThreadPoolSize" value="${pool.divide.size}"/> -->
 	</bean>
-	
+
 
 	<bean id="propertyConfig"
 		class="org.springframework.beans.factory.config.PropertiesFactoryBean">
@@ -41,7 +42,7 @@
 		<property name="username" value="${mysql.username}" />
 		<property name="password" value="${mysql.password}" />
 	</bean>
-	
+
 	<bean id="mongoFactory" class="org.damuzee.mongo.factory.SimpleMongoFactory">
 		<property name="host" value="${mongo.host}" />
 		<property name="port" value="${mongo.port}" />
@@ -58,19 +59,11 @@
 
 	</bean>
 
-	<!-- <bean id="task" class="com.damuzee.db.TaskDAO">
+	<bean id="integralDao" class="com.damuzee.db.IntegralAccessImpl">
 		<property name="transactionTemplate">
 			<bean class="org.springframework.transaction.support.TransactionTemplate">
 				<property name="transactionManager" ref="transactionManager" />
-			</bean>
-		</property>
-		<property name="dataSource" ref="dataSource" />
-	</bean> -->
-	
-		<bean id="integralDao" class="com.damuzee.db.IntegralAccessImpl">
-		<property name="transactionTemplate">
-			<bean class="org.springframework.transaction.support.TransactionTemplate">
-				<property name="transactionManager" ref="transactionManager" />
+				<property name="propagationBehavior" value="3" />
 			</bean>
 		</property>
 		<property name="dataSource" ref="dataSource" />
@@ -80,14 +73,16 @@
 		<property name="mongoTemplate" ref="mongoTemplate" />
 		<property name="dataSource" ref="dataSource" />
 	</bean>
-	
-		
+
+
 	<bean id="divideTaskStrategy" class="com.damuzee.strategy.impl.DivideTaskStrategy">
 		<property name="dataAccess" ref="memberDao" />
-		<property name="config" ref="config"/>
+		<property name="config" ref="config" />
 	</bean>
 
-	<bean id="checkoutStrategy" class="com.damuzee.strategy.impl.CheckoutStrategy" />
+	<bean id="checkoutStrategy" class="com.damuzee.strategy.impl.CheckoutStrategy">
+		<property name="dataAccess" ref="integralDao" />
+	</bean>
 
 	<bean id="checkoutExecutor" class="com.damuzee.executor.CheckoutExecutor" />
 
@@ -95,6 +90,6 @@
 
 	<bean id="checkoutFacade" class="com.damuzee.facade.impl.CheckoutFacadeImpl"
 		autowire="byName" />
-	
-	
+
+
 </beans>

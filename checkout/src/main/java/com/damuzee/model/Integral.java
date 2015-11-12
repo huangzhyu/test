@@ -11,21 +11,19 @@ public class Integral {
     private int ratio;
     private String orderId;
     private byte type;
+    private int conversion;
     
     
     public Integral() {
         super();
     }
-    
-    
 
     public Integral(Member member) {
         this.userId=member.getUserId();
         this.ratio=member.getRatio();
         this.type=member.getOperationType();
+        this.orderId=member.getOrderId();
     }
-
-
 
     /**
      * 
@@ -126,13 +124,28 @@ public class Integral {
         }
         
     }
+    
+
+	public int getConversion() {
+		return conversion;
+	}
+
+	/**
+	 * 设置积分换算系数
+	 * @param conversion 积分换算系数
+	 */
+	public void setConversion(int conversion) {
+		this.conversion = conversion;
+	}
+
 
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder(50);
-		sb.append("userId:").append(userId).append(" time:").append(time).append(" count:")
-		.append(count).append(" ratio:").append(ratio).append(" orderId:").append(orderId)
-		.append(" type:").append(type==0?Operation.INCOME:Operation.PAY);
+		sb.append("[userId=").append(userId).append(" time=").append(time).append(" count=")
+		.append(count).append(" ratio=").append(ratio).append(" orderId=").append(orderId)
+		.append(" type=").append(type==0?Operation.INCOME:Operation.PAY)
+		.append(" conversion=").append(conversion).append(" ]");
 		return sb.toString();
 	}
     

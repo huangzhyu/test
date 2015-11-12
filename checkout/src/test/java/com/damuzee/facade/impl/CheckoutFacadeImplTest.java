@@ -22,6 +22,7 @@ import com.damuzee.facade.CheckoutFacade;
 import com.damuzee.model.Config;
 import com.damuzee.model.Integral;
 import com.damuzee.model.Member;
+import com.damuzee.model.ResultHolder;
 
 public class CheckoutFacadeImplTest {
     ApplicationContext context = null;
@@ -33,7 +34,7 @@ public class CheckoutFacadeImplTest {
     @Test
     public void testGetMember(){
         MemberAccessImpl ma = context.getBean(MemberAccessImpl.class);
-        Member member = ma.getFirst(new Member("14468118502374438319"));
+        Member member = ma.getFirst(new Member("14468118502374438320"));
         System.out.println(member);
     }
     
@@ -51,10 +52,11 @@ public class CheckoutFacadeImplTest {
 
 	@Test
     public void testCheckout() {
+		int threadNum=1;
         final CheckoutFacade impl = context.getBean("checkoutFacade", CheckoutFacade.class);
         final CountDownLatch counter = new CountDownLatch(1);
-        Thread[] threads = new Thread[3];
-        for (int i = 0; i < 3; i++) {
+        Thread[] threads = new Thread[threadNum];
+        for (int i = 0; i < threadNum; i++) {
             threads[i] = new Thread(new Runnable() {
                 public void run() {
                     try {
@@ -62,7 +64,7 @@ public class CheckoutFacadeImplTest {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    impl.checkout(Math.random()+"");
+                    impl.checkout("14468118502374438320");
                 }
             });
             threads[i].start();
@@ -99,7 +101,7 @@ public class CheckoutFacadeImplTest {
 	public void testAdd(){
 	    IntegralAccessImpl impl = context.getBean(IntegralAccessImpl.class);
 	    Integral integral = Mockito.mock(Integral.class);
-	    Mockito.when(integral.getUserId()).thenReturn(String.valueOf(System.currentTimeMillis()));
+	    Mockito.when(integral.getUserId()).thenReturn(Math.random()+"");
 	    Mockito.when(integral.getCount()).thenReturn(250);
 	    Mockito.when(integral.getOrderId()).thenReturn("orderid");
 	    Mockito.when(integral.getRatio()).thenReturn(50);
@@ -107,7 +109,7 @@ public class CheckoutFacadeImplTest {
 	    Mockito.when(integral.getTime()).thenReturn(new Timestamp(System.currentTimeMillis()));
 	    
 	    Integral integral2 = Mockito.mock(Integral.class);
-        Mockito.when(integral2.getUserId()).thenReturn(String.valueOf(System.currentTimeMillis()));
+        Mockito.when(integral2.getUserId()).thenReturn(Math.random()+"");
         Mockito.when(integral2.getCount()).thenReturn(150);
         Mockito.when(integral2.getOrderId()).thenReturn("orderid");
         Mockito.when(integral2.getRatio()).thenReturn(30);
@@ -115,8 +117,7 @@ public class CheckoutFacadeImplTest {
         Mockito.when(integral2.getTime()).thenReturn(new Timestamp(System.currentTimeMillis()));
         
         Integral integral3 = Mockito.mock(Integral.class);
-//        Mockito.when(integral3.getUserId()).thenReturn(String.valueOf(System.currentTimeMillis()));
-        Mockito.when(integral3.getUserId()).thenReturn(null);
+        Mockito.when(integral3.getUserId()).thenReturn(Math.random()+"");
         Mockito.when(integral3.getCount()).thenReturn(100);
         Mockito.when(integral3.getOrderId()).thenReturn("orderid");
         Mockito.when(integral3.getRatio()).thenReturn(20);
@@ -128,8 +129,10 @@ public class CheckoutFacadeImplTest {
         integrals.add(integral2);
         integrals.add(integral3);
         
+        ResultHolder holder = new ResultHolder();
+        holder.setIntegrals(integrals);
 	    
-	    impl.add(integrals);
+	    impl.add(holder);
 	}
 	
 	@Test
@@ -151,7 +154,7 @@ public class CheckoutFacadeImplTest {
 	public void testFindTask(){
 		MongoTemplate template = context.getBean(MongoTemplate.class);
 		SimpleMapObject sm = new SimpleMapObject();
-        sm.put("orderNO","14468118502374438319");
+        sm.put("orderNO","14468118502374438320");
 		Map<String, Object> map = template.findOne("payOrder", sm);
 		System.out.println(map);
 	}

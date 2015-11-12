@@ -44,26 +44,25 @@ public class AppTest {
 //        System.out.println(money.toPlainString());
         
         
-        BigDecimal amount = new BigDecimal(10000.2);
-        BigDecimal conversion = new BigDecimal(100);
+//        BigDecimal amount = new BigDecimal(10000.2);
+//        BigDecimal conversion = new BigDecimal(100);
         
-        BigDecimal basePercent = Utils.ratioExchange(10, 100);
-        BigDecimal selfPercent = Utils.ratioExchange(20, 100);
-        BigDecimal superiorPercent = Utils.ratioExchange(30, 100);
-        BigDecimal finalSuperiorPercent = Utils.ratioExchange(20, 100);
-        BigDecimal Percent = Utils.ratioExchange(10, 1000);
+//        BigDecimal basePercent = Utils.ratioExchange(10, 100);
+//        BigDecimal selfPercent = Utils.ratioExchange(20, 100);
+//        BigDecimal superiorPercent = Utils.ratioExchange(30, 100);
+//        BigDecimal finalSuperiorPercent = Utils.ratioExchange(20, 100);
+//        BigDecimal Percent = Utils.ratioExchange(10, 1000);
         
-        BigDecimal bonus = Utils.computeBonus(amount, basePercent);
-        System.out.println(bonus.toPlainString());
+//        BigDecimal bonus = Utils.computeBonus(amount, basePercent);
+//        System.out.println(bonus.toPlainString());
         
-        System.out.println("selfPercent:"+Utils.computeIntegral(bonus, selfPercent, conversion));
-        System.out.println("superiorPercent:"+Utils.computeIntegral(bonus, superiorPercent, conversion));
-        System.out.println("finalSuperiorPercent:"+Utils.computeIntegral(bonus, finalSuperiorPercent, conversion));
+//        System.out.println("selfPercent:"+Utils.computeIntegral(bonus, selfPercent, conversion));
+//        System.out.println("superiorPercent:"+Utils.computeIntegral(bonus, superiorPercent, conversion));
+//        System.out.println("finalSuperiorPercent:"+Utils.computeIntegral(bonus, finalSuperiorPercent, conversion));
+//        System.out.println(Utils.result(10,amount, selfPercent, conversion));
+//        System.out.println(Utils.result(10,amount, superiorPercent, conversion));
+//        System.out.println(Utils.result(10,amount, finalSuperiorPercent, conversion));
         
-        BigDecimal aa = new BigDecimal(135.95);  
-        BigDecimal bb=new BigDecimal("100");  
-        BigDecimal result=aa.multiply(bb);  
-        System.out.println(result.setScale(2,BigDecimal.ROUND_HALF_EVEN));  
     }
 
 }
