@@ -1,0 +1,599 @@
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:29:50 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:35:59 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:35:59 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 CheckoutFacadeImpl.java INFO New task 0 added into the thread pool.
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:56 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO start to divide task:0
+2015-11-09 19:44:56 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO The parent task of 0 is:00
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskStrategy.java INFO The parent task of 00 is:000
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:44:57 DivideTaskExecutor.java INFO task added to checkout thread pool
+2015-11-09 19:50:16 MongoTemplate.java DEBUG find tableName task ,where { "typeName" : "教育"}  ,filter null ,sortBy null,skip 0 ,limit0
+2015-11-09 19:53:44 MongoTemplate.java DEBUG find tableName task ,where { "typeName" : "教育"}  ,filter null ,sortBy null,skip 0 ,limit0
+2015-11-09 19:53:44 MongoTemplate.java DEBUG getCollection : task
+2015-11-09 19:53:45 MongoTemplate.java DEBUG result : [{_id=563c88400cf2597d8d9cd29c, startTime=2015-11-06T19:00, typeName=教育, amounts=4661, location=[ 104.069297 , 30.621692], descript=石丹好的并不多, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=, joiner=[ ], creater=13658011651, state=1040, create_time=Fri Nov 06 19:00:16 CST 2015, paying_time=Fri Nov 06 19:28:05 CST 2015, paid_time=Sat Nov 07 01:19:30 CST 2015}, {_id=563c912e017e810e02044ea4, startTime=2015-11-06T19:40, typeName=教育, amounts=1, location=[ 104.068934 , 30.621616], descript=飞机竞技场, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=, joiner=[ ], creater=13658011651, state=1040, create_time=Fri Nov 06 19:38:22 CST 2015, paying_time=Sun Nov 08 19:53:41 CST 2015, paid_time=Mon Nov 09 15:54:39 CST 2015}, {_id=563c91c3017e810e02044ea5, startTime=2015-11-06T19:42, typeName=教育, amounts=1, location=[ 104.068801 , 30.621541], descript=v建兵v你才, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=, joiner=[ ], creater=13658011651, state=1030, create_time=Fri Nov 06 19:40:51 CST 2015, paying_time=Sun Nov 08 20:45:31 CST 2015}, {_id=563f12f60cf2597d8d9cd29f, startTime=2015-11-08T17:16, typeName=教育, amounts=111111111111.22, location=[ 104.069154 , 30.621728], descript=陈家祠将错就错将错就错警察局复读机收到回复警察局开发九叔邮单号v狂惭愧惭愧刺激刺激洗剪吹继续继续警察局陈家祠将错就错静川, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=, joiner=[ ], creater=13658011651, state=2000, create_time=Sun Nov 08 17:16:38 CST 2015}, {_id=563f152c0cf2597d8d9cd2a1, startTime=2015-11-08T17:25, typeName=教育, amounts=1243468静川聚警察局, location=[ 104.069134 , 30.621624], descript=就更加笑哈哈翻江倒海都快v蝗虫巨款都不错脑出血不喜欢吃基础上喜欢吃时候放假凤凰城女警刺激刺激, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=2015-11-08T17:25, joiner=[ ], creater=13658011651, state=2000, create_time=Sun Nov 08 17:26:04 CST 2015}, {_id=563f153b0cf2597d8d9cd2a2, startTime=2015-11-08T17:26, typeName=教育, amounts=11234, location=[ 104.069134 , 30.621624], descript=女时亏v桑v上厕所聚聚数据数据的坚持数据数据数据时亏v都快v时亏, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=2015-11-08T14:26, joiner=[ ], creater=13658011651, state=2000, create_time=Sun Nov 08 17:26:19 CST 2015}, {_id=563f15ea0cf2597d8d9cd2a3, startTime=2015-11-08T17:29, typeName=教育, amounts=2345, location=[ 104.069048 , 30.621666], descript=金额v康生v狂v上扣扣v, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=2015-11-08T16:29, joiner=[ ], creater=13658011651, state=2000, create_time=Sun Nov 08 17:29:14 CST 2015}, {_id=563f163e0cf2597d8d9cd2a4, startTime=2015-11-08T17:30, typeName=教育, amounts=1, location=[ 104.069132 , 30.621706], descript=建兵时间不是, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=2013-11-08T17:30, joiner=[ ], creater=13658011651, state=2000, create_time=Sun Nov 08 17:30:38 CST 2015}, {_id=563f16810cf2597d8d9cd2a5, startTime=2015-11-08T17:31, typeName=教育, amounts=1, location=[ 104.069125 , 30.621731], descript=建兵文树v见死不救, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=2015-11-08T17:31, joiner=[ ], creater=13658011651, state=2000, create_time=Sun Nov 08 17:31:45 CST 2015}, {_id=563f20910cf2597d8d9cd2a6, startTime=2015-11-08T18:14, typeName=教育, amounts=11, location=[ 104.069043 , 30.621682], descript=洪承畴程浩, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=烹饪, deadline=2015-11-08T18:14, joiner=[ ], creater=13658011651, state=2000, create_time=Sun Nov 08 18:14:41 CST 2015}, {_id=563f13560cf2597d8d9cd2a0, startTime=2015-11-08T17:18, typeName=教育, amounts=2222, location=[ 104.068569 , 30.621511], descript=将错就错坚持坚持陈家祠将错就错警察局陈家祠将错就错警察局陈家祠将错就错警察局, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=education, deadline=2015-11-08T17:18, joiner=[ ], creater=13658011651, state=1040, create_time=Sun Nov 08 17:18:14 CST 2015, paying_time=Mon Nov 09 15:23:32 CST 2015, paid_time=Mon Nov 09 15:30:16 CST 2015}]
+2015-11-12 10:59:39 CheckoutFacadeImpl.java INFO New order 1447297179316 added into the divide Task thread pool.
+2015-11-12 10:59:39 CheckoutFacadeImpl.java INFO New order 1447297179316 added into the divide Task thread pool.
+2015-11-12 10:59:39 CheckoutFacadeImpl.java INFO New order 1447297179316 added into the divide Task thread pool.
+2015-11-12 10:59:39 CheckoutFacadeImpl.java INFO New order 1447297179316 added into the divide Task thread pool.
+2015-11-12 10:59:39 CheckoutFacadeImpl.java INFO New order 1447297179316 added into the divide Task thread pool.
+2015-11-12 10:59:39 CheckoutFacadeImpl.java INFO New order 1447297179316 added into the divide Task thread pool.
+2015-11-12 10:59:39 CheckoutFacadeImpl.java INFO New order 1447297179316 added into the divide Task thread pool.
+2015-11-12 10:59:39 CheckoutFacadeImpl.java INFO New order 1447297179316 added into the divide Task thread pool.
+2015-11-12 10:59:39 CheckoutFacadeImpl.java INFO New order 1447297179316 added into the divide Task thread pool.
+2015-11-12 10:59:39 CheckoutFacadeImpl.java INFO New order 1447297179316 added into the divide Task thread pool.
+2015-11-12 10:59:39 DivideTaskStrategy.java INFO divide 1447297179316 completed
+2015-11-12 10:59:39 DivideTaskStrategy.java INFO divide 1447297179316 completed
+2015-11-12 10:59:39 DivideTaskStrategy.java INFO divide 1447297179316 completed
+2015-11-12 10:59:39 DivideTaskStrategy.java INFO divide 1447297179316 completed
+2015-11-12 10:59:39 DivideTaskStrategy.java INFO divide 1447297179316 completed
+2015-11-12 10:59:39 DivideTaskStrategy.java INFO divide 1447297179316 completed
+2015-11-12 10:59:39 DivideTaskStrategy.java INFO divide 1447297179316 completed
+2015-11-12 10:59:39 DivideTaskStrategy.java INFO divide 1447297179316 completed
+2015-11-12 10:59:39 DivideTaskStrategy.java INFO divide 1447297179316 completed
+2015-11-12 10:59:39 DivideTaskStrategy.java INFO divide 1447297179316 completed
+2015-11-12 11:01:10 CheckoutFacadeImpl.java INFO New order 1447297270246 added into the divide Task thread pool.
+2015-11-12 11:02:05 CheckoutFacadeImpl.java INFO New order 1447297325858 added into the divide Task thread pool.
+2015-11-12 11:02:06 DivideTaskStrategy.java INFO divide 1447297325858 completed
+2015-11-12 11:02:53 CheckoutFacadeImpl.java INFO New order 1447297373105 added into the divide Task thread pool.
+2015-11-12 11:02:53 DivideTaskStrategy.java INFO divide 1447297373105 completed
+2015-11-12 11:04:32 CheckoutFacadeImpl.java INFO New order 1447297472029 added into the divide Task thread pool.
+2015-11-12 11:04:32 CheckoutFacadeImpl.java INFO New order 1447297472029 added into the divide Task thread pool.
+2015-11-12 11:04:32 CheckoutFacadeImpl.java INFO New order 1447297472029 added into the divide Task thread pool.
+2015-11-12 11:04:32 DivideTaskStrategy.java INFO divide 1447297472029 completed
+2015-11-12 11:04:32 DivideTaskStrategy.java INFO divide 1447297472029 completed
+2015-11-12 11:04:32 DivideTaskStrategy.java INFO divide 1447297472029 completed
+2015-11-12 11:06:07 CheckoutFacadeImpl.java INFO New order 0.522041101387961 added into the divide Task thread pool.
+2015-11-12 11:06:07 CheckoutFacadeImpl.java INFO New order 0.4130956557880232 added into the divide Task thread pool.
+2015-11-12 11:06:07 CheckoutFacadeImpl.java INFO New order 0.8251980727810755 added into the divide Task thread pool.
+2015-11-12 11:06:07 DivideTaskStrategy.java INFO divide 0.4130956557880232 completed
+2015-11-12 11:06:07 DivideTaskStrategy.java INFO divide 0.522041101387961 completed
+2015-11-12 11:06:07 DivideTaskStrategy.java INFO divide 0.8251980727810755 completed
+2015-11-12 11:06:55 CheckoutFacadeImpl.java INFO New order 0.18692728756487453 added into the divide Task thread pool.
+2015-11-12 11:06:55 CheckoutFacadeImpl.java INFO New order 0.9521200490620354 added into the divide Task thread pool.
+2015-11-12 11:06:55 CheckoutFacadeImpl.java INFO New order 0.8400271015792428 added into the divide Task thread pool.
+2015-11-12 11:06:55 DivideTaskStrategy.java INFO divide 0.8400271015792428 completed
+2015-11-12 11:06:55 DivideTaskStrategy.java INFO divide 0.9521200490620354 completed
+2015-11-12 11:06:55 DivideTaskStrategy.java INFO divide 0.18692728756487453 completed
+2015-11-12 12:09:11 CheckoutFacadeImpl.java INFO New order 0.2159845664610187 added into the divide Task thread pool.
+2015-11-12 12:09:11 CheckoutFacadeImpl.java INFO New order 0.5709430600634234 added into the divide Task thread pool.
+2015-11-12 12:09:11 CheckoutFacadeImpl.java INFO New order 0.5019959339632315 added into the divide Task thread pool.
+2015-11-12 12:09:11 DivideTaskStrategy.java INFO divide 0.5019959339632315 completed
+2015-11-12 12:09:11 DivideTaskStrategy.java INFO divide 0.2159845664610187 completed
+2015-11-12 12:09:11 DivideTaskStrategy.java INFO divide 0.5709430600634234 completed
+2015-11-12 12:48:00 CheckoutFacadeImpl.java INFO New order 0.13913663237201934 added into the divide Task thread pool.
+2015-11-12 12:48:00 CheckoutFacadeImpl.java INFO New order 0.7857390345112545 added into the divide Task thread pool.
+2015-11-12 12:48:00 CheckoutFacadeImpl.java INFO New order 0.11593265024889676 added into the divide Task thread pool.
+2015-11-12 12:48:00 DivideTaskStrategy.java INFO divide 0.11593265024889676 completed
+2015-11-12 12:48:00 DivideTaskStrategy.java INFO divide 0.13913663237201934 completed
+2015-11-12 12:48:00 DivideTaskStrategy.java INFO divide 0.7857390345112545 completed
+2015-11-12 12:49:32 CheckoutFacadeImpl.java INFO New order 0.576461650569383 added into the divide Task thread pool.
+2015-11-12 12:49:32 CheckoutFacadeImpl.java INFO New order 0.8862517546336387 added into the divide Task thread pool.
+2015-11-12 12:49:32 CheckoutFacadeImpl.java INFO New order 0.8905508495900591 added into the divide Task thread pool.
+2015-11-12 12:49:32 DivideTaskStrategy.java INFO divide 0.8905508495900591 completed
+2015-11-12 12:49:32 DivideTaskStrategy.java INFO divide 0.576461650569383 completed
+2015-11-12 12:49:32 DivideTaskStrategy.java INFO divide 0.8862517546336387 completed
+2015-11-12 13:19:24 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 13:19:25 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 13:19:25 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 13:19:25 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 13:19:25 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : "563c9217017e810e02044ea6"}  ,filter null
+2015-11-12 13:19:25 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 13:19:25 MongoTemplate.java DEBUG result : null
+2015-11-12 13:20:49 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 13:20:50 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 13:20:50 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 13:20:50 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 13:22:19 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 13:22:20 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 13:22:20 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 13:22:20 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 13:22:40 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 13:22:41 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 13:22:41 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 13:22:41 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 13:23:41 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 13:23:41 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 13:23:42 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 13:23:42 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 13:24:09 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : "563c9217017e810e02044ea6"}  ,filter null
+2015-11-12 13:24:09 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 13:24:09 MongoTemplate.java DEBUG result : null
+2015-11-12 13:26:37 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 13:26:38 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 13:26:38 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 13:26:38 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 13:43:37 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 13:43:37 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 13:43:38 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 13:43:38 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 13:44:02 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 13:44:02 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 13:44:03 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 13:44:03 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 13:44:09 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : "563f2eda0cf2597d8d9cd2ac"}  ,filter null
+2015-11-12 13:44:09 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 13:44:09 MongoTemplate.java DEBUG result : null
+2015-11-12 14:00:49 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 14:00:49 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 14:00:49 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:00:49 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:00:50 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563f2eda0cf2597d8d9cd2ac"}}  ,filter null
+2015-11-12 14:00:50 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 14:00:50 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:00:50 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:00:50 MongoTemplate.java DEBUG findOne tableName member ,where { "telephone" :  null }  ,filter null
+2015-11-12 14:00:50 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:00:50 MongoTemplate.java DEBUG result : null
+2015-11-12 14:01:53 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 14:01:54 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 14:01:54 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:01:54 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:01:54 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563f2eda0cf2597d8d9cd2ac"}}  ,filter null
+2015-11-12 14:01:54 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 14:01:54 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:01:54 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:02:08 MongoTemplate.java DEBUG findOne tableName member ,where { "telephone" :  null }  ,filter null
+2015-11-12 14:02:08 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:02:09 MongoTemplate.java DEBUG result : null
+2015-11-12 14:02:44 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 14:02:44 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 14:02:45 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:02:45 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:02:45 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563f2eda0cf2597d8d9cd2ac"}}  ,filter null
+2015-11-12 14:02:45 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 14:02:45 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:02:45 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:02:45 MongoTemplate.java DEBUG findOne tableName member ,where { "telephone" : "13658011651"}  ,filter null
+2015-11-12 14:02:45 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:02:45 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:02:45 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:03:08 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 14:03:08 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 14:03:09 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:03:09 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:03:09 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563f2eda0cf2597d8d9cd2ac"}}  ,filter null
+2015-11-12 14:03:09 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 14:03:09 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:03:09 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:03:14 MongoTemplate.java DEBUG findOne tableName member ,where { "telephone" : "13658011651"}  ,filter null
+2015-11-12 14:03:14 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:03:14 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:03:14 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:33:18 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 14:33:18 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 14:33:18 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:33:18 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:33:18 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563f2eda0cf2597d8d9cd2ac"}}  ,filter null
+2015-11-12 14:33:18 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 14:33:18 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:33:18 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:33:18 MongoTemplate.java DEBUG findOne tableName member ,where { "telephone" : "13658011651"}  ,filter null
+2015-11-12 14:33:18 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:33:18 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:33:18 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:33:18 MongoTemplate.java DEBUG findOne tableName member ,where { "invitedCode" : "wo3brb"}  ,filter null
+2015-11-12 14:33:18 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:33:19 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:33:19 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:33:19 MongoTemplate.java DEBUG findOne tableName member ,where { "invitedCode" :  null }  ,filter null
+2015-11-12 14:33:19 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:33:19 MongoTemplate.java DEBUG result : {_id=56172ad20cf28af02dec67de, telephone=18708155583, password=e10adc3949ba59abbe56e057f20f883e, state=init, invite=woc9yq, accept_task_type=[ "jiazheng"], location=[ 104.059228 , 30.632159], workState=free, headImg=images/18708155583/picHead/18708155583-picHead8272391b-927c-46cc-aad0-296b571528c1.jpg, sex=男, idCard={ "frontImg" : "images/18708155583/idCard/b7f67c26-c799-4548-af16-ad9d2a90cddb.jpg" , "holderImg" : "images/18708155583/idCard/9964b31f-a42c-400c-afb5-448b29ca097f.jpg" , "reverseImg" : "images/18708155583/idCard/bc118c39-d585-477e-badc-675a42b53cf2.jpg"}, bankCards=[ { "userName" : "1" , "number" : "1" , "bankName" : "1" , "telephone" : "1"} , { "userName" : "啊2" , "number" : "2" , "bankName" : "2" , "telephone" : "2"}], name=卡卡, mood=我爱生活, idCardApproved=1}
+2015-11-12 14:33:19 MongoTemplate.java DEBUG result : {_id=56172ad20cf28af02dec67de, telephone=18708155583, password=e10adc3949ba59abbe56e057f20f883e, state=init, invite=woc9yq, accept_task_type=[ "jiazheng"], location=[ 104.059228 , 30.632159], workState=free, headImg=images/18708155583/picHead/18708155583-picHead8272391b-927c-46cc-aad0-296b571528c1.jpg, sex=男, idCard={ "frontImg" : "images/18708155583/idCard/b7f67c26-c799-4548-af16-ad9d2a90cddb.jpg" , "holderImg" : "images/18708155583/idCard/9964b31f-a42c-400c-afb5-448b29ca097f.jpg" , "reverseImg" : "images/18708155583/idCard/bc118c39-d585-477e-badc-675a42b53cf2.jpg"}, bankCards=[ { "userName" : "1" , "number" : "1" , "bankName" : "1" , "telephone" : "1"} , { "userName" : "啊2" , "number" : "2" , "bankName" : "2" , "telephone" : "2"}], name=卡卡, mood=我爱生活, idCardApproved=1}
+2015-11-12 14:34:57 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 14:34:57 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 14:34:57 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:34:57 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:34:57 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563f2eda0cf2597d8d9cd2ac"}}  ,filter null
+2015-11-12 14:34:57 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 14:34:57 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:34:57 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:34:57 MongoTemplate.java DEBUG findOne tableName member ,where { "telephone" : "13658011651"}  ,filter null
+2015-11-12 14:34:57 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:34:58 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:34:58 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:35:25 MongoTemplate.java DEBUG findOne tableName member ,where { "invitedCode" : "wo3brb"}  ,filter null
+2015-11-12 14:35:25 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:35:25 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:35:25 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:38:07 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 14:38:08 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 14:38:08 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:38:08 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:38:08 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563f2eda0cf2597d8d9cd2ac"}}  ,filter null
+2015-11-12 14:38:08 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 14:38:08 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:38:08 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:38:08 MongoTemplate.java DEBUG findOne tableName member ,where { "telephone" : "13658011651"}  ,filter null
+2015-11-12 14:38:08 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:38:08 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:38:08 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:38:08 MongoTemplate.java DEBUG findOne tableName member ,where { "invite" : "wo3brb"}  ,filter null
+2015-11-12 14:38:08 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:38:08 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 14:38:08 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 14:38:08 MongoTemplate.java DEBUG findOne tableName member ,where { "invite" :  null }  ,filter null
+2015-11-12 14:38:08 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:38:08 MongoTemplate.java DEBUG result : {_id=562da46320b55dc1fb649b17, telephone=13800000000, password=e10adc3949ba59abbe56e057f20f883e, accept_task_type=[ ], location=[ ], workState=off, headImg=images/13812345678/userHead/13812345678-userHeada3e8e581-57b1-46a6-9051-5b1e68ee1d14.jpg}
+2015-11-12 14:38:08 MongoTemplate.java DEBUG result : {_id=562da46320b55dc1fb649b17, telephone=13800000000, password=e10adc3949ba59abbe56e057f20f883e, accept_task_type=[ ], location=[ ], workState=off, headImg=images/13812345678/userHead/13812345678-userHeada3e8e581-57b1-46a6-9051-5b1e68ee1d14.jpg}
+2015-11-12 14:39:46 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 14:39:46 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 14:39:47 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:39:47 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:39:47 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563f2eda0cf2597d8d9cd2ac"}}  ,filter null
+2015-11-12 14:39:47 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 14:39:47 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:39:47 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:39:47 MongoTemplate.java DEBUG findOne tableName member ,where { "telephone" : "13658011651"}  ,filter null
+2015-11-12 14:39:47 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:39:47 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:39:47 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:39:58 MongoTemplate.java DEBUG findOne tableName member ,where { "invite" : "wo3brb"}  ,filter null
+2015-11-12 14:39:58 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:39:58 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 14:39:58 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 14:42:20 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 14:42:21 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 14:42:21 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:42:21 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:42:21 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563f2eda0cf2597d8d9cd2ac"}}  ,filter null
+2015-11-12 14:42:21 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 14:42:21 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:42:21 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:42:21 MongoTemplate.java DEBUG findOne tableName member ,where { "telephone" : "13658011651"}  ,filter null
+2015-11-12 14:42:21 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:42:21 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:42:21 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:42:21 MongoTemplate.java DEBUG findOne tableName member ,where { "invite" : "wo3brb"}  ,filter null
+2015-11-12 14:42:21 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:42:21 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 14:42:21 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 14:42:21 MongoTemplate.java DEBUG findOne tableName member ,where { "invite" : "wo3jq8"}  ,filter null
+2015-11-12 14:42:21 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:42:21 MongoTemplate.java DEBUG result : {_id=562f2b0c3856f5f6d8870018, telephone=13812345679, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=, state=init, workState=off, invite=wo3jq8}
+2015-11-12 14:42:21 MongoTemplate.java DEBUG result : {_id=562f2b0c3856f5f6d8870018, telephone=13812345679, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=, state=init, workState=off, invite=wo3jq8}
+2015-11-12 14:45:58 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 14:45:59 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 14:45:59 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:45:59 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 14:45:59 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563f2eda0cf2597d8d9cd2ac"}}  ,filter null
+2015-11-12 14:45:59 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 14:45:59 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:45:59 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 14:45:59 MongoTemplate.java DEBUG findOne tableName member ,where { "telephone" : "13658011651"}  ,filter null
+2015-11-12 14:45:59 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:45:59 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:45:59 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 14:45:59 MongoTemplate.java DEBUG findOne tableName member ,where { "invite" : "wo3brb"}  ,filter null
+2015-11-12 14:45:59 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:45:59 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 14:45:59 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 14:45:59 MongoTemplate.java DEBUG findOne tableName member ,where { "invite" : "wo3jq8"}  ,filter null
+2015-11-12 14:45:59 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 14:45:59 MongoTemplate.java DEBUG result : {_id=562f2b0c3856f5f6d8870018, telephone=13812345679, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=, state=init, workState=off, invite=wo3jq8}
+2015-11-12 14:45:59 MongoTemplate.java DEBUG result : {_id=562f2b0c3856f5f6d8870018, telephone=13812345679, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=, state=init, workState=off, invite=wo3jq8}
+2015-11-12 15:50:02 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 15:50:02 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 15:50:02 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 15:50:02 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 15:50:02 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563c9217017e810e02044ea6"}}  ,filter null
+2015-11-12 15:50:02 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 15:50:02 MongoTemplate.java DEBUG result : null
+2015-11-12 15:51:40 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 15:51:40 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 15:51:40 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 15:51:40 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 15:51:40 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563c9217017e810e02044ea6"}}  ,filter null
+2015-11-12 15:51:40 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 15:51:40 MongoTemplate.java DEBUG result : null
+2015-11-12 15:53:10 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 15:53:10 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 15:53:10 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 15:53:10 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 15:53:40 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563c9217017e810e02044ea6"}}  ,filter null
+2015-11-12 15:53:40 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 15:53:40 MongoTemplate.java DEBUG result : null
+2015-11-12 15:55:44 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438319"}  ,filter null
+2015-11-12 15:55:45 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 15:55:45 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 15:55:45 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, taskID=563c9217017e810e02044ea6, state=2, orderNO=14468118502374438319, amount=1, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 15:59:36 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438320"}  ,filter null
+2015-11-12 15:59:36 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 15:59:37 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438320, amount=10000, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 15:59:37 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438320, amount=10000, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 15:59:37 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563f2eda0cf2597d8d9cd2ac"}}  ,filter null
+2015-11-12 15:59:37 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 15:59:37 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 15:59:37 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 15:59:37 MongoTemplate.java DEBUG findOne tableName member ,where { "telephone" : "13658011651"}  ,filter null
+2015-11-12 15:59:37 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 15:59:37 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 15:59:37 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 15:59:37 MongoTemplate.java DEBUG findOne tableName member ,where { "invite" : "wo3brb"}  ,filter null
+2015-11-12 15:59:37 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 15:59:37 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 15:59:37 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 15:59:37 MongoTemplate.java DEBUG findOne tableName member ,where { "invite" : "wo3jq8"}  ,filter null
+2015-11-12 15:59:37 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 15:59:37 MongoTemplate.java DEBUG result : {_id=562f2b0c3856f5f6d8870018, telephone=13812345679, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=, state=init, workState=off, invite=wo3jq8}
+2015-11-12 15:59:37 MongoTemplate.java DEBUG result : {_id=562f2b0c3856f5f6d8870018, telephone=13812345679, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=, state=init, workState=off, invite=wo3jq8}
+2015-11-12 16:02:12 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438320"}  ,filter null
+2015-11-12 16:02:12 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 16:02:12 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438320, amount=10000, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 16:02:12 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438320, amount=10000, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 16:02:12 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563f2eda0cf2597d8d9cd2ac"}}  ,filter null
+2015-11-12 16:02:12 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 16:02:12 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 16:02:12 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 16:02:12 MongoTemplate.java DEBUG findOne tableName member ,where { "telephone" : "13658011651"}  ,filter null
+2015-11-12 16:02:12 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 16:02:12 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 16:02:12 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 16:02:12 MongoTemplate.java DEBUG findOne tableName member ,where { "invite" : "wo3brb"}  ,filter null
+2015-11-12 16:02:12 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 16:02:12 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 16:02:12 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 16:02:12 MongoTemplate.java DEBUG findOne tableName member ,where { "invite" : "wo3jq8"}  ,filter null
+2015-11-12 16:02:12 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 16:02:12 MongoTemplate.java DEBUG result : {_id=562f2b0c3856f5f6d8870018, telephone=13812345679, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=, state=init, workState=off, invite=wo3jq8}
+2015-11-12 16:02:12 MongoTemplate.java DEBUG result : {_id=562f2b0c3856f5f6d8870018, telephone=13812345679, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=, state=init, workState=off, invite=wo3jq8}
+2015-11-12 16:25:03 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438320"}  ,filter null
+2015-11-12 16:25:03 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 16:25:03 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438320, amount=10000, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 16:25:03 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438320, amount=10000, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 16:25:03 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563f2eda0cf2597d8d9cd2ac"}}  ,filter null
+2015-11-12 16:25:03 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 16:25:03 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 16:25:03 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 16:25:03 MongoTemplate.java DEBUG findOne tableName member ,where { "telephone" : "13658011651"}  ,filter null
+2015-11-12 16:25:03 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 16:25:03 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 16:25:03 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 16:25:03 MongoTemplate.java DEBUG findOne tableName member ,where { "invite" : "wo3brb"}  ,filter null
+2015-11-12 16:25:03 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 16:25:03 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 16:25:03 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 16:25:03 MongoTemplate.java DEBUG findOne tableName member ,where { "invite" : "wo3jq8"}  ,filter null
+2015-11-12 16:25:03 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 16:25:03 MongoTemplate.java DEBUG result : {_id=562f2b0c3856f5f6d8870018, telephone=13812345679, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=, state=init, workState=off, invite=wo3jq8}
+2015-11-12 16:25:03 MongoTemplate.java DEBUG result : {_id=562f2b0c3856f5f6d8870018, telephone=13812345679, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=, state=init, workState=off, invite=wo3jq8}
+2015-11-12 16:33:41 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438320"}  ,filter null
+2015-11-12 16:33:42 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 16:33:42 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438320, amount=10000, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 16:33:42 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438320, amount=10000, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 16:33:42 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563f2eda0cf2597d8d9cd2ac"}}  ,filter null
+2015-11-12 16:33:42 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 16:33:42 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 16:33:42 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 16:33:42 MongoTemplate.java DEBUG findOne tableName member ,where { "telephone" : "13658011651"}  ,filter null
+2015-11-12 16:33:42 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 16:33:42 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 16:33:42 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 16:33:42 MongoTemplate.java DEBUG findOne tableName member ,where { "invite" : "wo3brb"}  ,filter null
+2015-11-12 16:33:42 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 16:33:42 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 16:33:42 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 16:33:42 MongoTemplate.java DEBUG findOne tableName member ,where { "invite" : "wo3jq8"}  ,filter null
+2015-11-12 16:33:42 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 16:33:42 MongoTemplate.java DEBUG result : {_id=562f2b0c3856f5f6d8870018, telephone=13812345679, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=, state=init, workState=off, invite=wo3jq8}
+2015-11-12 16:33:42 MongoTemplate.java DEBUG result : {_id=562f2b0c3856f5f6d8870018, telephone=13812345679, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=, state=init, workState=off, invite=wo3jq8}
+2015-11-12 16:38:54 MongoTemplate.java DEBUG findOne tableName payOrder ,where { "orderNO" : "14468118502374438320"}  ,filter null
+2015-11-12 16:38:55 MongoTemplate.java DEBUG getCollection : payOrder
+2015-11-12 16:38:55 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438320, amount=10000, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 16:38:55 MongoTemplate.java DEBUG result : {_id=563c98ca017e810e02044ea8, taskID=563f2eda0cf2597d8d9cd2ac, state=2, orderNO=14468118502374438320, amount=10000, channelBankCode=weixin, payType=2, payTime=20151106201050, channelNO=999999, channelDate=20150101}
+2015-11-12 16:38:55 MongoTemplate.java DEBUG findOne tableName task ,where { "_id" : { "$oid" : "563f2eda0cf2597d8d9cd2ac"}}  ,filter null
+2015-11-12 16:38:55 MongoTemplate.java DEBUG getCollection : task
+2015-11-12 16:38:55 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 16:38:55 MongoTemplate.java DEBUG result : {_id=563f2eda0cf2597d8d9cd2ac, startTime=2015-11-08T19:15, typeName=iv聚三姐, amounts=1, location=[ 104.069158 , 30.621757], descript=问题, createrImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, type=其他, deadline=2015-11-08T19:15, joiner=[ ], creater=13658011651, state=1080, create_time=Sun Nov 08 19:15:38 CST 2015, accepted_time=Tue Nov 10 18:46:23 CST 2015, canceled_time=Tue Nov 10 18:46:30 CST 2015}
+2015-11-12 16:38:55 MongoTemplate.java DEBUG findOne tableName member ,where { "telephone" : "13658011651"}  ,filter null
+2015-11-12 16:38:55 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 16:38:55 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 16:38:55 MongoTemplate.java DEBUG result : {_id=5637389a0cf2db91dd4f15be, password=e10adc3949ba59abbe56e057f20f883e, telephone=13658011651, state=init, invite=wo262n, invitedCode=wo3brb, accept_task_type=[ "jiazheng" , "others"], location=[ 104.069186 , 30.621733], workState=free, headImg=images/13658011651/userHead/363290c8-4dbc-4d44-8e1f-0780fb0270d0.jpg, name=饭饭, mood=这家伙很懒,什么也没留下., idCard={ "frontImg" : "images/13658011651/idCard/4b166eef-795b-4078-8d0c-aa87314e8c2e.jpg" , "holderImg" : "images/13658011651/idCard/ccacb48a-a9e9-4b4e-a162-267de3ceff46.gif" , "reverseImg" : "images/13658011651/idCard/46f42cbc-6934-4c8a-a461-131c13c41025.gif"}, idCardApproved=0}
+2015-11-12 16:38:55 MongoTemplate.java DEBUG findOne tableName member ,where { "invite" : "wo3brb"}  ,filter null
+2015-11-12 16:38:55 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 16:38:55 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 16:38:55 MongoTemplate.java DEBUG result : {_id=562f289d385685eedf7db4a1, telephone=18380308232, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=wo3jq8, state=init, workState=off, invite=wo3brb, name=邵强, mood=来咯陌陌咯, idCard={ "frontImg" : "images/18380308232/idCard/327ed03b-7de1-41d0-b660-54f1428a4915.jpg" , "holderImg" : "images/18380308232/idCard/aeb9583a-63d9-4891-bde9-431059a4269e.jpg" , "reverseImg" : "images/18380308232/idCard/6db5bf50-59f4-40fc-995b-31364ee2fe48.jpg"}, idCardApproved=0}
+2015-11-12 16:38:55 MongoTemplate.java DEBUG findOne tableName member ,where { "invite" : "wo3jq8"}  ,filter null
+2015-11-12 16:38:55 MongoTemplate.java DEBUG getCollection : member
+2015-11-12 16:38:55 MongoTemplate.java DEBUG result : {_id=562f2b0c3856f5f6d8870018, telephone=13812345679, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=, state=init, workState=off, invite=wo3jq8}
+2015-11-12 16:38:55 MongoTemplate.java DEBUG result : {_id=562f2b0c3856f5f6d8870018, telephone=13812345679, password=e10adc3949ba59abbe56e057f20f883e, invitedCode=, state=init, workState=off, invite=wo3jq8}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<context:annotation-config />
+	
+	<context:property-placeholder location="classpath:database.properties" ignore-unresolvable="true"/>
+	
+	<bean id="threadPoolFactory" class="com.damuzee.executor.ThreadPoolFactory"  scope="singleton">
+	    <!--
+	    若不配置以下属性，则由默认值（Runtime.getRuntime().availableProcessors() + 1）创建线程池
+	     <property name="checkoutThreadPoolSize" value="${pool.checkout.size}"/>
+	    <property name="divideTaskThreadPoolSize" value="${pool.divide.size}"/> -->
+	</bean>
+	
+
+	<bean id="propertyConfig"
+		class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+		<property name="locations">
+			<list>
+				<value>classpath*:ratio.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer">
+		<property name="properties" ref="propertyConfig" />
+	</bean>
+
+	<bean id="config" class="com.damuzee.model.Config" />
+	<!-- 分割线 -->
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="${mysql.driverClassName}" />
+		<property name="url" value="${mysql.url}" />
+		<property name="username" value="${mysql.username}" />
+		<property name="password" value="${mysql.password}" />
+	</bean>
+	
+	<bean id="mongoFactory" class="org.damuzee.mongo.factory.SimpleMongoFactory">
+		<property name="host" value="${mongo.host}" />
+		<property name="port" value="${mongo.port}" />
+		<property name="dbName" value="${mongo.dbname}" />
+	</bean>
+	<bean id="mongoTemplate" class="org.damuzee.mongo.MongoTemplate">
+		<constructor-arg name="mongoFactory" ref="mongoFactory" />
+	</bean>
+	<bean id="transactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource">
+			<ref local="dataSource" />
+		</property>
+
+	</bean>
+
+	<!-- <bean id="task" class="com.damuzee.db.TaskDAO">
+		<property name="transactionTemplate">
+			<bean class="org.springframework.transaction.support.TransactionTemplate">
+				<property name="transactionManager" ref="transactionManager" />
+			</bean>
+		</property>
+		<property name="dataSource" ref="dataSource" />
+	</bean> -->
+	
+		<bean id="integralDao" class="com.damuzee.db.IntegralAccessImpl">
+		<property name="transactionTemplate">
+			<bean class="org.springframework.transaction.support.TransactionTemplate">
+				<property name="transactionManager" ref="transactionManager" />
+			</bean>
+		</property>
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<bean id="memberDao" class="com.damuzee.db.MemberAccessImpl">
+		<property name="mongoTemplate" ref="mongoTemplate" />
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+		
+	<bean id="divideTaskStrategy" class="com.damuzee.strategy.impl.DivideTaskStrategy">
+		<property name="dataAccess" ref="memberDao" />
+		<property name="config" ref="config"/>
+	</bean>
+
+	<bean id="checkoutStrategy" class="com.damuzee.strategy.impl.CheckoutStrategy" />
+
+	<bean id="checkoutExecutor" class="com.damuzee.executor.CheckoutExecutor" />
+
+	<bean id="divideTaskExecutor" class="com.damuzee.executor.DivideTaskExecutor" />
+
+	<bean id="checkoutFacade" class="com.damuzee.facade.impl.CheckoutFacadeImpl"
+		autowire="byName" />
+	
+	
+</beans>
