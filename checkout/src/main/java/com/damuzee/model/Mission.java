@@ -4,21 +4,21 @@ import java.util.concurrent.Callable;
 
 import com.damuzee.strategy.StrategyContext;
 
-public class Mission implements Callable<ResultHolder> {
+public class Mission<T> implements Callable<ResultHolder> {
 
-	private StrategyContext context;
-	private Task entity;
+	private StrategyContext<T> context;
+	private T entity;
 	
-	public Mission(StrategyContext context,Task entity) {
+	public Mission(StrategyContext<T> context,T entity) {
 		this.context = context;
 		this.entity = entity;
 	}
 	
-	public void setContext(StrategyContext context) {
+	public void setContext(StrategyContext<T> context) {
 		this.context = context;
 	}
 
-	public void setEntity(Task entity) {
+	public void setEntity(T entity) {
 		this.entity = entity;
 	}
 

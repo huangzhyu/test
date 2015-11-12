@@ -1,6 +1,5 @@
 package com.damuzee.executor;
 
-import java.util.concurrent.CompletionService;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 
@@ -14,27 +13,27 @@ import com.damuzee.model.ResultHolder;
 import com.damuzee.strategy.Strategy;
 import com.damuzee.strategy.StrategyContext;
 
-public class CheckoutExecutor extends Executor {
+public class CheckoutExecutor extends Executor<ResultHolder> {
 	private static  final Logger logger = LoggerFactory.getLogger(CheckoutExecutor.class);
 	@Autowired
-	public CheckoutExecutor(Strategy checkoutStrategy) {
-		threadPool=CheckoutExecutor.ThreadPoolHolder.threadPool;
-		strategyContext = new StrategyContext(checkoutStrategy);
+	public CheckoutExecutor(Strategy<ResultHolder> checkoutStrategy,ThreadPoolFactory threadPoolFactory) {
+	    this.threadPool = threadPoolFactory.getCheckoutThreadPool();
+		strategyContext = new StrategyContext<ResultHolder>(checkoutStrategy);
 	}
 
 	@PostConstruct 
 	public void init() {
-		new Thread(new Runnable() {
-			@Override
-			public void run() {
-				onComplete();
-			}
-		}).start();
+//		new Thread(new Runnable() {
+//			@Override
+//			public void run() {
+//				onComplete();
+//			}
+//		}).start();
 
 	}
-	private static class ThreadPoolHolder{
-		public static CompletionService<ResultHolder> threadPool = ThreadPool.INSTANCE.getUpdateTaskThreadPool();
-	}
+//	private static class ThreadPoolHolder{
+//		public static CompletionService<ResultHolder> threadPool = ThreadPool.INSTANCE.getUpdateTaskThreadPool();
+//	}
 
 	@Override
 	public void onComplete() {

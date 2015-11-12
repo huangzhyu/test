@@ -1,7 +1,9 @@
 package com.damuzee.facade;
 
-import com.damuzee.model.Task;
-
 public interface CheckoutFacade {
-	public void checkout(Task task);
+    void checkout(String orderId);
+    /**
+     * 积分兑换
+     */
+    void exchange(Object obj);
 }

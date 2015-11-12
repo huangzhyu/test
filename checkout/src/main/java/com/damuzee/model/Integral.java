@@ -11,6 +11,22 @@ public class Integral {
     private int ratio;
     private String orderId;
     private byte type;
+    
+    
+    public Integral() {
+        super();
+    }
+    
+    
+
+    public Integral(Member member) {
+        this.userId=member.getUserId();
+        this.ratio=member.getRatio();
+        this.type=member.getOperationType();
+    }
+
+
+
     /**
      * 
      * @return 用户编号

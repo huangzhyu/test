@@ -2,9 +2,10 @@ package com.damuzee.facade.impl;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CountDownLatch;
+
+import junit.framework.Assert;
 
 import org.damuzee.mongo.MongoTemplate;
 import org.damuzee.mongo.SimpleMapObject;
@@ -15,10 +16,12 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.damuzee.db.IntegralAccessImpl;
+import com.damuzee.db.MemberAccessImpl;
+import com.damuzee.executor.ThreadPoolFactory;
 import com.damuzee.facade.CheckoutFacade;
 import com.damuzee.model.Config;
 import com.damuzee.model.Integral;
-import com.damuzee.model.Task;
+import com.damuzee.model.Member;
 
 public class CheckoutFacadeImplTest {
     ApplicationContext context = null;
@@ -27,13 +30,31 @@ public class CheckoutFacadeImplTest {
         context = new ClassPathXmlApplicationContext("application-context.xml");
     }
     
+    @Test
+    public void testGetMember(){
+        MemberAccessImpl ma = context.getBean(MemberAccessImpl.class);
+        Member member = ma.getFirst(new Member("14468118502374438319"));
+        System.out.println(member);
+    }
+    
+    @Test
+    public void getSuperMember(){
+        MemberAccessImpl ma = context.getBean(MemberAccessImpl.class);
+        Member member = ma.getFirst(new Member("14468118502374438320"));
+        System.out.println(member);
+        Member result=ma.getSuperiorMember(member);
+        System.out.println(result);
+        Member result2=ma.getSuperiorMember(result);
+        System.out.println(result2);
+    }
+    
 
 	@Test
     public void testCheckout() {
         final CheckoutFacade impl = context.getBean("checkoutFacade", CheckoutFacade.class);
         final CountDownLatch counter = new CountDownLatch(1);
-        Thread[] threads = new Thread[10];
-        for (int i = 0; i < 10; i++) {
+        Thread[] threads = new Thread[3];
+        for (int i = 0; i < 3; i++) {
             threads[i] = new Thread(new Runnable() {
                 public void run() {
                     try {
@@ -41,9 +62,7 @@ public class CheckoutFacadeImplTest {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    Task t = new Task();
-                    t.set_id("0");
-                    impl.checkout(t);
+                    impl.checkout(Math.random()+"");
                 }
             });
             threads[i].start();
@@ -60,7 +79,6 @@ public class CheckoutFacadeImplTest {
             e.printStackTrace();
         }
         
-        System.out.println("done");
         for(;;){
             Thread.yield();
         }
@@ -70,9 +88,11 @@ public class CheckoutFacadeImplTest {
 	@Test
 	public void testConfig(){
 	    Config config = context.getBean(Config.class);
-	    System.out.println(config.getSelfRatio());
-	    System.out.println(config.getFirstLevelRatio());
-	    System.out.println(config.getSecondLevelRatio());
+	    System.out.println("Self:"+config.getSelfRatio());
+	    System.out.println("FinalSuperior:"+config.getFinalSuperiorRatio());
+	    System.out.println("Superior:"+config.getSuperiorRatio());
+	    System.out.println(config.getBonus());
+	    System.out.println(config.getConversion());
 	}
 	
 	@Test
@@ -134,5 +154,12 @@ public class CheckoutFacadeImplTest {
         sm.put("orderNO","14468118502374438319");
 		Map<String, Object> map = template.findOne("payOrder", sm);
 		System.out.println(map);
+	}
+	
+	@Test
+	public void testSingleton(){
+	    ThreadPoolFactory tf1=context.getBean(ThreadPoolFactory.class);
+	    ThreadPoolFactory tf2=context.getBean(ThreadPoolFactory.class);
+	    Assert.assertEquals(tf1, tf2);
 	}
 }

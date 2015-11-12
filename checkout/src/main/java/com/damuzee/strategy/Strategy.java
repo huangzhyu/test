@@ -1,8 +1,7 @@
 package com.damuzee.strategy;
 
 import com.damuzee.model.ResultHolder;
-import com.damuzee.model.Task;
 
-public interface Strategy {
-	 public ResultHolder doOperation(final Task entity);
+public interface Strategy<T> {
+	 public ResultHolder doOperation(T type);
 }

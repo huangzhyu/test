@@ -10,16 +10,13 @@
 	
 	<context:property-placeholder location="classpath:database.properties" ignore-unresolvable="true"/>
 	
-	<bean id="divideTaskStrategy" class="com.damuzee.strategy.impl.DivideTaskStrategy" />
-
-	<bean id="checkoutStrategy" class="com.damuzee.strategy.impl.CheckoutStrategy" />
-
-	<bean id="checkoutExecutor" class="com.damuzee.executor.CheckoutExecutor" />
-
-	<bean id="divideTaskExecutor" class="com.damuzee.executor.DivideTaskExecutor" />
-
-	<bean id="checkoutFacade" class="com.damuzee.facade.impl.CheckoutFacadeImpl"
-		autowire="byName" />
+	<bean id="threadPoolFactory" class="com.damuzee.executor.ThreadPoolFactory"  scope="singleton">
+	    <!--
+	    若不配置以下属性，则由默认值（Runtime.getRuntime().availableProcessors() + 1）创建线程池
+	     <property name="checkoutThreadPoolSize" value="${pool.checkout.size}"/>
+	    <property name="divideTaskThreadPoolSize" value="${pool.divide.size}"/> -->
+	</bean>
+	
 
 	<bean id="propertyConfig"
 		class="org.springframework.beans.factory.config.PropertiesFactoryBean">
@@ -61,14 +58,14 @@
 
 	</bean>
 
-	<bean id="task" class="com.damuzee.db.TaskDAO">
+	<!-- <bean id="task" class="com.damuzee.db.TaskDAO">
 		<property name="transactionTemplate">
 			<bean class="org.springframework.transaction.support.TransactionTemplate">
 				<property name="transactionManager" ref="transactionManager" />
 			</bean>
 		</property>
 		<property name="dataSource" ref="dataSource" />
-	</bean>
+	</bean> -->
 	
 		<bean id="integralDao" class="com.damuzee.db.IntegralAccessImpl">
 		<property name="transactionTemplate">
@@ -78,5 +75,26 @@
 		</property>
 		<property name="dataSource" ref="dataSource" />
 	</bean>
+
+	<bean id="memberDao" class="com.damuzee.db.MemberAccessImpl">
+		<property name="mongoTemplate" ref="mongoTemplate" />
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+		
+	<bean id="divideTaskStrategy" class="com.damuzee.strategy.impl.DivideTaskStrategy">
+		<property name="dataAccess" ref="memberDao" />
+		<property name="config" ref="config"/>
+	</bean>
+
+	<bean id="checkoutStrategy" class="com.damuzee.strategy.impl.CheckoutStrategy" />
+
+	<bean id="checkoutExecutor" class="com.damuzee.executor.CheckoutExecutor" />
+
+	<bean id="divideTaskExecutor" class="com.damuzee.executor.DivideTaskExecutor" />
+
+	<bean id="checkoutFacade" class="com.damuzee.facade.impl.CheckoutFacadeImpl"
+		autowire="byName" />
+	
 	
 </beans>

@@ -1,20 +1,19 @@
 package com.damuzee.strategy;
 
 import com.damuzee.model.ResultHolder;
-import com.damuzee.model.Task;
 
-public class StrategyContext {
-	private Strategy strategy;
+public class StrategyContext<T> {
+	private Strategy<T> strategy;
 
-	public StrategyContext(Strategy strategy){
+	public StrategyContext(Strategy<T> strategy){
 	      this.strategy = strategy;
 	   }
 	
-	public void setStrategy(Strategy strategy){
+	public void setStrategy(Strategy<T> strategy){
 		this.strategy=strategy;
 	}
 
-	public ResultHolder executeStrategy(Task entity) {
+	public ResultHolder executeStrategy(T entity) {
 		return strategy.doOperation(entity);
 	}
 }
