@@ -8,16 +8,8 @@
 
 	<context:annotation-config />
 
-	<context:property-placeholder location="classpath:database.properties"
+	<context:property-placeholder location="classpath:config.properties"
 		ignore-unresolvable="true" />
-
-	<bean id="threadPoolFactory" class="com.damuzee.executor.ThreadPoolFactory"
-		scope="singleton">
-		<!-- 若不配置以下属性，则由默认值（Runtime.getRuntime().availableProcessors() + 1）创建线程池 
-			<property name="checkoutThreadPoolSize" value="${pool.checkout.size}"/> <property 
-			name="divideTaskThreadPoolSize" value="${pool.divide.size}"/> -->
-	</bean>
-
 
 	<bean id="propertyConfig"
 		class="org.springframework.beans.factory.config.PropertiesFactoryBean">
@@ -83,6 +75,19 @@
 		<property name="orderAccess" ref="failedOrderDao" />
 	</bean>
 
+	<bean id="rejectedHandler" class="com.damuzee.executor.RejectedHandler">
+		<property name="integralService" ref="integralService" />
+	</bean>
+	
+	<bean id="threadPoolWrapper" class="com.damuzee.executor.ThreadPoolWrapper">
+		<property name="handler" ref="rejectedHandler" />
+	</bean>
+	
+	<bean id="threadPoolFactory" class="com.damuzee.executor.ThreadPoolFactory" scope="singleton">
+		<constructor-arg index="0" value="${pool.checkout.size}" />
+		<constructor-arg index="1" value="${pool.divide.size}" />
+		<constructor-arg index="2" ref="threadPoolWrapper" />
+	</bean>
 
 	<bean id="divideTaskStrategy" class="com.damuzee.strategy.impl.DivideTaskStrategy">
 		<property name="dataAccess" ref="memberDao" />
@@ -92,10 +97,20 @@
 	<bean id="checkoutStrategy" class="com.damuzee.strategy.impl.CheckoutStrategy">
 		<property name="integralService" ref="integralService" />
 	</bean>
+	
+	
+	<bean id="retryFailedOrderStrategy" class="com.damuzee.strategy.impl.RetryFailedOrderStrategy">
+		<property name="integralService" ref="integralService" />
+		<property name="divideTaskExecutor" ref="divideTaskExecutor" />
+	</bean>
 
 	<bean id="checkoutExecutor" class="com.damuzee.executor.CheckoutExecutor" />
 
 	<bean id="divideTaskExecutor" class="com.damuzee.executor.DivideTaskExecutor" />
+	
+	<bean id="scheduledExecutor" class="com.damuzee.executor.ScheduledExecutor">
+		<property name="delayHours" value="${retry.delay}" />    
+	</bean>
 
 	<bean id="checkoutFacade" class="com.damuzee.facade.impl.CheckoutFacadeImpl"
 		autowire="byName" />

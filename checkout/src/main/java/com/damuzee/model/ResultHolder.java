@@ -28,7 +28,6 @@ public class ResultHolder {
 		this.type = type;
 	}
 	
-	
 	public Timestamp getTime() {
 		return time;
 	}

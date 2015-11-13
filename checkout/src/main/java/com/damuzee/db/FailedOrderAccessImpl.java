@@ -16,6 +16,7 @@ public class FailedOrderAccessImpl extends DataAccessAdapter<FailedOrder> {
 	private static final Logger logger = LoggerFactory.getLogger(FailedOrderAccessImpl.class);
 	private static final String ADD_SQL="insert into unsuccess (orderId,type,time,status) values(?,?,?,?)";
 	private static final String QUERY="select orderId,type,status from unsuccess where status=?";
+	private static final String DELETE="delete from unsuccess where orderId=?";
 
 	@Override
 	public boolean add(FailedOrder order) {
@@ -53,5 +54,12 @@ public class FailedOrderAccessImpl extends DataAccessAdapter<FailedOrder> {
 		return result;
 		
 	}
+
+    @Override
+    public void delete(FailedOrder t) {
+        getJdbcTemplate().update(DELETE, t.getOrderId());
+    }
+	
+	
 
 }

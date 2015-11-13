@@ -9,21 +9,8 @@ public interface DataAccess<T> {
      * @return 成功返回true
      */
     public boolean add(T t);
-    /**
-     * 删除一条或多条记录
-     * @param t
-     * @param isFetchDeletedRecords true:返回被删除的记录
-     * @return 返回被删除的记录
-     */
-    public List<T> delete(T t,boolean isFetchDeletedRecords);
-    /**
-     * 更新一条或多条记录
-     * @param t
-     * @param isFetchDeletedRecords true:返回被更新的记录
-     * @return
-     */
-    public T update(T t,boolean isFetchDeletedRecords);
-    
+    public void delete(T t);
+    public void update(T t);
     public T getFirst(T t);
     /**
      * 返回满足条件的所有记录

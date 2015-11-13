@@ -2,7 +2,7 @@ package com.damuzee.model;
 
 import java.math.BigDecimal;
 
-import com.damuzee.common.Operation;
+import com.damuzee.common.Checkout;
 
 public class Member {
 	private String userId;
@@ -26,6 +26,11 @@ public class Member {
 	public Member(String orderId) {
         this.orderId = orderId;
     }
+	
+	public Member(String orderId,byte type){
+	    this.orderId = orderId;
+	    this.operationType = type;
+	}
 	
 	public Member(){}
 	
@@ -102,14 +107,8 @@ public class Member {
         return operationType;
     }
 
-    public void setOperationType(Operation type) {
-        if(Operation.INCOME.equals(type)){
-            this.operationType=0;
-        }else if(Operation.PAY.equals(type)){
-            this.operationType = 1;
-        }else{
-            throw new IllegalStateException("Only [Operation.PAY] or [Operation.INCOME] supproted.");
-        }
+    public void setOperationType(Checkout type) {
+        this.operationType=(byte) type.ordinal();
     }
 
     public void setOperationType(byte operationType) {

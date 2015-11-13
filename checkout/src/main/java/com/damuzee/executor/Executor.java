@@ -22,5 +22,5 @@ public abstract class Executor<T> {
 	/**
 	 * 获取线程池中已经执行完成的任务的结果，进行下一步处理
 	 */
-	public abstract void onComplete();
+	public void onComplete(){};
 }

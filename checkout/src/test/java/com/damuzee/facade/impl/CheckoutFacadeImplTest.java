@@ -13,7 +13,7 @@ import org.mockito.Mockito;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.damuzee.common.Operation;
+import com.damuzee.common.Checkout;
 import com.damuzee.common.Utils;
 import com.damuzee.db.FailedOrderAccessImpl;
 import com.damuzee.db.IntegralAccessImpl;
@@ -66,7 +66,7 @@ public class CheckoutFacadeImplTest {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    impl.checkout("14468118502374438320",Operation.INCOME);
+                    impl.checkout("14468118502374438320",Checkout.INCOME);
                 }
             });
             threads[i].start();
@@ -104,7 +104,7 @@ public class CheckoutFacadeImplTest {
 	public void testAddFailedOrder(){
 		FailedOrderAccessImpl orderAccess = context.getBean(FailedOrderAccessImpl.class);
 		FailedOrder order = new FailedOrder();
-		order.setOrderId("askdjfbkasdbfaksjdbfksa");
+		order.setOrderId("14468118502374438320");
 		order.setTime(Utils.getCurrentTime());
 		order.setType((byte) 0);
 		order.setStatus((byte) 1);

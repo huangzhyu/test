@@ -8,6 +8,7 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.damuzee.common.Checkout;
 import com.damuzee.common.Utils;
 import com.damuzee.db.AbstractMemberAccess;
 import com.damuzee.model.Config;
@@ -52,22 +53,36 @@ public class DivideTaskStrategy implements Strategy<Member> {
             return null;
         }
         logger.info("Task creater is:"+creater.getUserId());
+        int platformPercent=100;
         ArrayList<Member> members = new ArrayList<Member>();
         creater.setRatio(config.getSelfRatio());
+        platformPercent-=creater.getRatio();
         members.add(creater);
         if (!Utils.isNull(creater.getInvitedCode())) {
             Member superior = dataAccess.getSuperiorMember(creater);
             superior.setRatio(config.getSuperiorRatio());
             superior.setOrderId(creater.getOrderId());
+            platformPercent-=superior.getRatio();
             members.add(superior);
-            logger.info("The superior of");
             if (!Utils.isNull(superior.getInvitedCode())) {
                 Member finalSuperior = dataAccess.getSuperiorMember(superior);
                 finalSuperior.setRatio(config.getFinalSuperiorRatio());
                 finalSuperior.setOrderId(creater.getOrderId());
+                platformPercent-=finalSuperior.getRatio();
                 members.add(finalSuperior);
             }
         }
+        
+        if(memberArg.getOperationType()==Checkout.INCOME.ordinal()){
+            Member platform = new Member();
+            platform.setUserId("0");
+            platform.setRatio(platformPercent);
+            platform.setOperationType(Checkout.INCOME);
+            platform.setOrderId(memberArg.getOrderId());
+            members.add(platform);
+        }
+        
+        
         List<Integral> integrals = new ArrayList<Integral>(); 
         
         Integral integral = null;

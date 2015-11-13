@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import com.damuzee.common.Constant;
-import com.damuzee.common.Operation;
+import com.damuzee.common.Checkout;
 import com.damuzee.common.Utils;
 
 public class AppTest {
@@ -62,6 +62,9 @@ public class AppTest {
 //        System.out.println(Utils.result(10,amount, selfPercent, conversion));
 //        System.out.println(Utils.result(10,amount, superiorPercent, conversion));
 //        System.out.println(Utils.result(10,amount, finalSuperiorPercent, conversion));
+        
+        System.out.println(Checkout.PAY.ordinal());
+        System.out.println(Checkout.INCOME.ordinal());
         
     }
 

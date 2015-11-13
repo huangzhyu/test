@@ -1,5 +1,8 @@
 package com.damuzee.service;
 
+import java.util.List;
+
+import com.damuzee.common.Retry;
 import com.damuzee.db.DataAccess;
 import com.damuzee.model.FailedOrder;
 import com.damuzee.model.ResultHolder;
@@ -28,8 +31,20 @@ public class IntegralService {
 			order.setOrderId(holder.getOrderId());
 			order.setTime(holder.getTime());
 			order.setType(holder.getType());
-			order.setStatus((byte) 1);
-			orderAccess.add(order);
+			order.setStatus((byte) Retry.RETRY.ordinal());
+			add(order);
+		}else{
+		    FailedOrder order = new FailedOrder();
+            order.setOrderId(holder.getOrderId());
+		    orderAccess.delete(order);
 		}
+	}
+	
+	public final void add(FailedOrder order){
+	    orderAccess.add(order);
+	}
+	
+	public List<FailedOrder> getFailedOrder(FailedOrder order){
+	    return orderAccess.getALL(order);
 	}
 }

@@ -1,8 +1,8 @@
 package com.damuzee.executor;
 
 import java.util.concurrent.CompletionService;
-import java.util.concurrent.ExecutorCompletionService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
 
 import com.damuzee.model.ResultHolder;
 
@@ -11,28 +11,27 @@ import com.damuzee.model.ResultHolder;
  * @author huangzha
  *
  */
-public class ThreadPoolFactory {
-    private static final int availableProcessors = Runtime.getRuntime().availableProcessors() + 1;
-    private static CompletionService<ResultHolder> checkoutThreadPool;
-    private static CompletionService<ResultHolder> divideTaskThreadPool;
+public class ThreadPoolFactory{
+    private CompletionService<ResultHolder> checkoutThreadPool;
+    private CompletionService<ResultHolder> divideTaskThreadPool;
+    private final ScheduledExecutorService scheduled = Executors.newSingleThreadScheduledExecutor();
+    private ThreadPoolWrapper wrapper;
+    
 
-    private static int checkoutThreadPoolSize = availableProcessors;
-    private static int divideTaskThreadPoolSize = availableProcessors;
-
-    static {
-        checkoutThreadPool = new ExecutorCompletionService<ResultHolder>(Executors.newFixedThreadPool(checkoutThreadPoolSize));
-        divideTaskThreadPool = new ExecutorCompletionService<ResultHolder>(Executors.newFixedThreadPool(divideTaskThreadPoolSize));
+    public ThreadPoolFactory(int checkoutThreadPoolSize,int divideTaskThreadPoolSize,ThreadPoolWrapper wrapper) {
+        checkoutThreadPool = wrapper.getFixedThreadPool(checkoutThreadPoolSize);
+        divideTaskThreadPool = wrapper.getFixedThreadPool(divideTaskThreadPoolSize);
+    }
+    
+    public ThreadPoolWrapper getWrapper() {
+        return wrapper;
     }
 
-    public void setCheckoutThreadPoolSize(int checkoutThreadPoolSize) {
-        System.out.println("checkoutThreadPoolSize:"+checkoutThreadPoolSize);
-        checkoutThreadPool = new ExecutorCompletionService<ResultHolder>(Executors.newFixedThreadPool(checkoutThreadPoolSize));
+    public void setWrapper(ThreadPoolWrapper wrapper) {
+        this.wrapper = wrapper;
     }
 
-    public void setDivideTaskThreadPoolSize(int divideTaskThreadPoolSize) {
-        System.out.println("divideTaskThreadPoolSize:"+divideTaskThreadPoolSize);
-        divideTaskThreadPool = new ExecutorCompletionService<ResultHolder>(Executors.newFixedThreadPool(divideTaskThreadPoolSize));
-    }
+
 
     public CompletionService<ResultHolder> getCheckoutThreadPool() {
         return checkoutThreadPool;
@@ -40,5 +39,9 @@ public class ThreadPoolFactory {
 
     public CompletionService<ResultHolder> getDivideTaskThreadPool() {
         return divideTaskThreadPool;
+    }
+
+    public ScheduledExecutorService getScheduled() {
+        return scheduled;
     }
 }

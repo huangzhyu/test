@@ -35,23 +35,28 @@ public abstract class DataAccessAdapter<T> extends JdbcDaoSupport implements Dat
         throw new UnsupportedOperationException("Not implemented yet.");
     }
 
-    @Override
-    public List<T> delete(T t, boolean isFetchDeletedRecords) {
-        throw new UnsupportedOperationException("Not implemented yet.");
-    }
 
     @Override
-    public T update(T t, boolean isFetchDeletedRecords) {
-        throw new UnsupportedOperationException("Not implemented yet.");
+    public void delete(T t) {
+        throw new UnsupportedOperationException("Not implemented yet.");        
     }
+
+
+    @Override
+    public void update(T t) {
+        throw new UnsupportedOperationException("Not implemented yet.");        
+    }
+
 
     @Override
     public T getFirst(T t) {
         throw new UnsupportedOperationException("Not implemented yet.");
     }
 
+
     @Override
     public List<T> getALL(T t) {
         throw new UnsupportedOperationException("Not implemented yet.");
     }
+
 }

@@ -18,7 +18,6 @@ import com.damuzee.strategy.StrategyContext;
 public class DivideTaskExecutor extends Executor<Member> {
 	private static  final Logger logger = LoggerFactory.getLogger(DivideTaskExecutor.class);
 	private Executor<ResultHolder> checkoutExecutor;
-	
 	@Autowired
 	public DivideTaskExecutor(Executor<ResultHolder> checkoutExecutor,Strategy<Member> divideTaskStrategy,ThreadPoolFactory threadPoolFactory) {
 		threadPool=threadPoolFactory.getDivideTaskThreadPool();
@@ -44,7 +43,7 @@ public class DivideTaskExecutor extends Executor<Member> {
 			for (;;) {
 			    holder = this.threadPool.poll(100,TimeUnit.MILLISECONDS);
 			    if(holder==null || holder.get()==null){
-			    	System.out.println("no result yet.");
+//			    	System.out.println("no result yet.");
 			    	continue;
 			    }
 				
@@ -58,7 +57,6 @@ public class DivideTaskExecutor extends Executor<Member> {
 			Thread.currentThread().interrupt();
 			throw new RuntimeException(e);
 		} catch (ExecutionException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
 		

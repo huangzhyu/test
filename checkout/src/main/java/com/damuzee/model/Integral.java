@@ -1,7 +1,7 @@
 package com.damuzee.model;
 
 import java.sql.Timestamp;
-import com.damuzee.common.Operation;
+import com.damuzee.common.Checkout;
 
 
 public class Integral {
@@ -114,10 +114,10 @@ public class Integral {
      * 设置积分类型
      * @param type 0：收入；1：支出 
      */
-    public void setType(Operation type) {
-        if(Operation.INCOME.equals(type)){
+    public void setType(Checkout type) {
+        if(Checkout.INCOME.equals(type)){
             this.type=0;
-        }else if(Operation.PAY.equals(type)){
+        }else if(Checkout.PAY.equals(type)){
             this.type = 1;
         }else{
             throw new IllegalStateException("Only [Operation.PAY] or [Operation.INCOME] supproted.");
@@ -144,7 +144,7 @@ public class Integral {
 		StringBuilder sb = new StringBuilder(50);
 		sb.append("[userId=").append(userId).append(" time=").append(time).append(" count=")
 		.append(count).append(" ratio=").append(ratio).append(" orderId=").append(orderId)
-		.append(" type=").append(type==0?Operation.INCOME:Operation.PAY)
+		.append(" type=").append(type==0?Checkout.INCOME:Checkout.PAY)
 		.append(" conversion=").append(conversion).append(" ]");
 		return sb.toString();
 	}
