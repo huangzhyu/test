@@ -9,12 +9,20 @@ import com.damuzee.executor.Executor;
 import com.damuzee.executor.ScheduledExecutor;
 import com.damuzee.facade.CheckoutFacade;
 import com.damuzee.model.Member;
+import com.damuzee.service.IntegralService;
 
 public class CheckoutFacadeImpl implements CheckoutFacade {
 	private static  final Logger logger = LoggerFactory.getLogger(CheckoutFacadeImpl.class);
 
 	private Executor<Member> divideTaskExecutor;
+	private IntegralService integralService;
 	
+	
+	
+	public void setIntegralService(IntegralService integralService) {
+		this.integralService = integralService;
+	}
+
 	public void setDivideTaskExecutor(Executor<Member> divideTaskExecutor) {
 	    if(!(divideTaskExecutor instanceof DivideTaskExecutor)){
 	        throw new UnsupportedOperationException("Cannot use this kind of Executor: "+divideTaskExecutor);
@@ -31,6 +39,16 @@ public class CheckoutFacadeImpl implements CheckoutFacade {
 	    Member member = new Member(orderId,(byte) operation.ordinal());
 		divideTaskExecutor.submit(member);
 		logger.info("New order "+orderId+" added into the divide Task thread pool.");
+	}
+
+	@Override
+	public long getIntegral(String userId) {
+		return integralService.getIntegral(userId);
+	}
+
+	@Override
+	public boolean exchange(long integral,String userId) {
+		return integralService.exchange(integral,userId);
 	}
 
 }

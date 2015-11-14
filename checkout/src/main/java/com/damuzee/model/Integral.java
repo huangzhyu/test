@@ -7,7 +7,7 @@ import com.damuzee.common.Checkout;
 public class Integral {
     private String userId;
     private Timestamp time;
-    private int count;
+    private long count;
     private int ratio;
     private String orderId;
     private byte type;
@@ -60,7 +60,7 @@ public class Integral {
      * 
      * @return 积分数
      */
-    public int getCount() {
+    public long getCount() {
         return count;
     }
     
@@ -68,7 +68,7 @@ public class Integral {
      * 设置积分数
      * @param count 积分数
      */
-    public void setCount(int count) {
+    public void setCount(long count) {
         this.count = count;
     }
     

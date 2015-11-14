@@ -12,22 +12,20 @@ import com.damuzee.strategy.StrategyContext;
 public class ScheduledExecutor {
     private ScheduledExecutorService ses;
     private StrategyContext<FailedOrder> context;
-    private int delayHours;
+    private int delaySeconds;
     @Autowired
     public ScheduledExecutor(ThreadPoolFactory threadPoolFactory,Strategy<FailedOrder> retryFailedOrderStrategy){
         ses = threadPoolFactory.getScheduled();
         context = new StrategyContext<FailedOrder>(retryFailedOrderStrategy);
     }
     
-    public int getDelayHours() {
-        return delayHours;
-    }
-
-    public void setDelayHours(int delayHours) {
-        this.delayHours = delayHours;
-    }
     
-    public void start(){
+    public void setDelaySeconds(int delaySeconds) {
+		this.delaySeconds = delaySeconds;
+	}
+
+
+	public void start(){
         final StrategyContext<FailedOrder> ctx = context;
         ses.schedule(new Runnable(){
             @Override
@@ -35,6 +33,6 @@ public class ScheduledExecutor {
                 FailedOrder order = new FailedOrder();
                 order.setStatus((byte) 1);
                ctx.executeStrategy(order);
-            }}, delayHours*60*60, TimeUnit.SECONDS);
+            }}, delaySeconds, TimeUnit.SECONDS);
     }
 }

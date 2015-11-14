@@ -12,18 +12,16 @@ import com.damuzee.model.ResultHolder;
 import com.damuzee.service.IntegralService;
 
 public class RejectedHandler implements RejectedExecutionHandler {
-    private IntegralService service;
+    private IntegralService integralService;
     private ExecutorService alternateExecutor = Executors.newCachedThreadPool();
-    
-    public IntegralService getService() {
-        return service;
-    }
 
-    public void setService(IntegralService service) {
-        this.service = service;
-    }
+    public void setIntegralService(IntegralService integralService) {
+		this.integralService = integralService;
+	}
 
-    @Override
+
+
+	@Override
     public void rejectedExecution(Runnable r, ThreadPoolExecutor executor) {
         Mission<?> mission = (Mission<?>) r;
         
@@ -32,7 +30,7 @@ public class RejectedHandler implements RejectedExecutionHandler {
             Member m = (Member) mission.getEntity();
             FailedOrder order = new FailedOrder();
             order.setOrderId(m.getOrderId());
-            service.add(order);
+            integralService.add(order);
             
         }else if(mission.getEntity() instanceof ResultHolder){
             //CheckoutExecutor 拒绝任务

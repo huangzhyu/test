@@ -15,7 +15,6 @@ public class ThreadPoolFactory{
     private CompletionService<ResultHolder> checkoutThreadPool;
     private CompletionService<ResultHolder> divideTaskThreadPool;
     private final ScheduledExecutorService scheduled = Executors.newSingleThreadScheduledExecutor();
-    private ThreadPoolWrapper wrapper;
     
 
     public ThreadPoolFactory(int checkoutThreadPoolSize,int divideTaskThreadPoolSize,ThreadPoolWrapper wrapper) {
@@ -23,15 +22,6 @@ public class ThreadPoolFactory{
         divideTaskThreadPool = wrapper.getFixedThreadPool(divideTaskThreadPoolSize);
     }
     
-    public ThreadPoolWrapper getWrapper() {
-        return wrapper;
-    }
-
-    public void setWrapper(ThreadPoolWrapper wrapper) {
-        this.wrapper = wrapper;
-    }
-
-
 
     public CompletionService<ResultHolder> getCheckoutThreadPool() {
         return checkoutThreadPool;

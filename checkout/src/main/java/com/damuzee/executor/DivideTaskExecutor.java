@@ -1,7 +1,9 @@
 package com.damuzee.executor;
 
 import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
+import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
 
 import javax.annotation.PostConstruct;
@@ -27,33 +29,39 @@ public class DivideTaskExecutor extends Executor<Member> {
 	
 	@PostConstruct 
 	public void init(){
-		new Thread(new Runnable() {
+		Executors.newSingleThreadExecutor(new ThreadFactory() {
+			
+			@Override
+			public Thread newThread(Runnable r) {
+				Thread thread = new Thread(r);
+				thread.setName("Retrieve divided ResultHolder");
+				return thread;
+			}
+		}).submit(new Runnable() {
 			@Override
 			public void run() {
-				DivideTaskExecutor.this.onComplete();
+				onComplete();
 			}
-		}).start();
+		});
 	}
 
 	@Override
 	public void onComplete(){
 		//task分解成功，将每个task添加到更新数据的线程池中等待执行
-		Future<ResultHolder> holder = null;
+		Future<ResultHolder> future = null;
 		try {
 			for (;;) {
-			    holder = this.threadPool.poll(100,TimeUnit.MILLISECONDS);
-			    if(holder==null || holder.get()==null){
-//			    	System.out.println("no result yet.");
+				future = this.threadPool.poll(100,TimeUnit.MILLISECONDS);
+			    if(future==null || future.get()==null){
 			    	continue;
 			    }
-				
-				checkoutExecutor.submit(holder.get());
+				checkoutExecutor.submit(future.get());
 			}
 		} catch (InterruptedException e) {
-			logger.error("Thread interruped when take finished task");
-			if(holder != null){
-				holder.cancel(true);
+			if(future!=null){
+				future.cancel(true);
 			}
+			logger.error("Thread interruped when take finished task");
 			Thread.currentThread().interrupt();
 			throw new RuntimeException(e);
 		} catch (ExecutionException e) {

@@ -60,12 +60,18 @@ public class DivideTaskStrategy implements Strategy<Member> {
         members.add(creater);
         if (!Utils.isNull(creater.getInvitedCode())) {
             Member superior = dataAccess.getSuperiorMember(creater);
+            if(Utils.isNull(superior)){
+            	throw new IllegalStateException("The member with invite code "+creater.getInvitedCode()+"is not exist.");
+            }
             superior.setRatio(config.getSuperiorRatio());
             superior.setOrderId(creater.getOrderId());
             platformPercent-=superior.getRatio();
             members.add(superior);
             if (!Utils.isNull(superior.getInvitedCode())) {
                 Member finalSuperior = dataAccess.getSuperiorMember(superior);
+                if(Utils.isNull(finalSuperior)){
+                	throw new IllegalStateException("The member with invite code "+creater.getInvitedCode()+"is not exist.");
+                }
                 finalSuperior.setRatio(config.getFinalSuperiorRatio());
                 finalSuperior.setOrderId(creater.getOrderId());
                 platformPercent-=finalSuperior.getRatio();

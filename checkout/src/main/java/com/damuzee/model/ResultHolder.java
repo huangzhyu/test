@@ -9,7 +9,15 @@ public class ResultHolder {
 	private String orderId;
 	private byte type;
 	private Timestamp time;
-    public List<Integral> getIntegrals() {
+	private String userId;
+	
+    public String getUserId() {
+		return userId;
+	}
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
+	public List<Integral> getIntegrals() {
         return Integrals;
     }
     public void setIntegrals(List<Integral> integrals) {

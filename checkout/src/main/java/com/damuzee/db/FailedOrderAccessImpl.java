@@ -26,14 +26,14 @@ public class FailedOrderAccessImpl extends DataAccessAdapter<FailedOrder> {
 			@Override
 			public Boolean doInTransaction(TransactionStatus paramTransactionStatus) {
 				try {
-					getJdbcTemplate().update(ADD_SQL, tmpOrder.getOrderId(),tmpOrder.getType(),tmpOrder.getTime(),tmpOrder.getStatus());
+					int flag = getJdbcTemplate().update(ADD_SQL, tmpOrder.getOrderId(),tmpOrder.getType(),tmpOrder.getTime(),tmpOrder.getStatus());
+					return flag >0;
 				} catch (Exception e) {
 					e.printStackTrace();
 					logger.error("Failed to add "+tmpOrder+" in database.");
 					logger.error(e.getLocalizedMessage());
 					return false;
 				}
-				return true;
 			}
 		});
 	}

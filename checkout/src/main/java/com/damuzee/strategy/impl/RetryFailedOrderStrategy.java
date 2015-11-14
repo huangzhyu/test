@@ -39,6 +39,7 @@ public class RetryFailedOrderStrategy implements Strategy<FailedOrder> {
             for(FailedOrder pendingOrder : orders){
                 m = new Member(pendingOrder.getOrderId(), pendingOrder.getType());
                 divideTaskExecutor.submit(m);
+                integralService.deleteFailedOrder(pendingOrder);
             }
         }
         return null;

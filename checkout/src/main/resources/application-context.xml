@@ -104,12 +104,12 @@
 		<property name="divideTaskExecutor" ref="divideTaskExecutor" />
 	</bean>
 
-	<bean id="checkoutExecutor" class="com.damuzee.executor.CheckoutExecutor" />
+	<bean id="checkoutExecutor" class="com.damuzee.executor.CheckoutExecutor" scope="singleton" />
 
-	<bean id="divideTaskExecutor" class="com.damuzee.executor.DivideTaskExecutor" />
+	<bean id="divideTaskExecutor" class="com.damuzee.executor.DivideTaskExecutor" scope="singleton" />
 	
-	<bean id="scheduledExecutor" class="com.damuzee.executor.ScheduledExecutor">
-		<property name="delayHours" value="${retry.delay}" />    
+	<bean id="scheduledExecutor" class="com.damuzee.executor.ScheduledExecutor" scope="singleton">
+		<property name="delaySeconds" value="${retry.delay}" />    
 	</bean>
 
 	<bean id="checkoutFacade" class="com.damuzee.facade.impl.CheckoutFacadeImpl"

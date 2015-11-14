@@ -6,6 +6,7 @@ import java.math.RoundingMode;
 import java.sql.Timestamp;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 import com.damuzee.common.Constant;
 import com.damuzee.common.Checkout;
@@ -65,6 +66,12 @@ public class AppTest {
         
         System.out.println(Checkout.PAY.ordinal());
         System.out.println(Checkout.INCOME.ordinal());
+        
+        final Random random = new Random();
+        
+        for(int i=0;i<10;i++){
+        	System.out.println(random.nextInt(10));
+        }
         
     }
 
